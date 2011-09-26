@@ -360,10 +360,6 @@
         <translation>Тип данных &lt;%datatype_name&gt; не может использоваться в качестве центра сбора информации.</translation>
     </message>
     <message>
-        <source>Edit &lt;%class_name&gt; (%object_count)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Description</source>
         <translation type="unfinished">Описание</translation>
     </message>
@@ -393,6 +389,14 @@
     </message>
     <message>
         <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%class_name&gt; (%object_count objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The draft of the class definition was successfully stored.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1017,6 +1021,14 @@
         <source>Category</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Application name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm removal</source>
+        <translation type="unfinished">Подтвердите удаление</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/collaboration</name>
@@ -1618,6 +1630,26 @@
         <source>No media file is available.</source>
         <translation>Нет доступных медиа файлов.</translation>
     </message>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Год</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Месяц</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">День</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Час</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Минута</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/datatype/ezuser</name>
@@ -1630,79 +1662,79 @@
     <name>design/admin/content/diff</name>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Версии объекта &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Версии объекта &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Показать изменения</translation>
+        <translation type="obsolete">Показать изменения</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Изменения между версиями %oldVersion и %newVersion</translation>
+        <translation type="obsolete">Изменения между версиями %oldVersion и %newVersion</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation type="obsolete">Версия</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation type="obsolete">Статус</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Переводы</translation>
+        <translation type="obsolete">Переводы</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Создатель</translation>
+        <translation type="obsolete">Создатель</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Изменено</translation>
+        <translation type="obsolete">Изменено</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Черновик</translation>
+        <translation type="obsolete">Черновик</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Размещено</translation>
+        <translation type="obsolete">Размещено</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Ожидающий</translation>
+        <translation type="obsolete">Ожидающий</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Архивный</translation>
+        <translation type="obsolete">Архивный</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Отклонен</translation>
+        <translation type="obsolete">Отклонен</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Нетронутый черновик</translation>
+        <translation type="obsolete">Нетронутый черновик</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Изменения inline</translation>
+        <translation type="obsolete">Изменения inline</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Изменения block</translation>
+        <translation type="obsolete">Изменения block</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Старая версия</translation>
+        <translation type="obsolete">Старая версия</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Новая версия</translation>
+        <translation type="obsolete">Новая версия</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; (%version_count)</source>
-        <translation>Версии объекта &lt;%object_name&gt; (%version_count)</translation>
+        <translation type="obsolete">Версии объекта &lt;%object_name&gt; (%version_count)</translation>
     </message>
 </context>
 <context>
@@ -1955,7 +1987,7 @@
         <translation>Просмотр</translation>
     </message>
     <message>
-        <source>View the draft that is being edited.</source>
+        <source>Preview the draft that is being edited.</source>
         <translation>Просмотр редактируемого сейчас черновика.</translation>
     </message>
     <message>
@@ -2217,6 +2249,14 @@
     <message>
         <source>Related content (%related_objects)</source>
         <translation>Связанное содержимое (%related_objects)</translation>
+    </message>
+    <message>
+        <source>View the draft that is being edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path String</source>
+        <translation type="unfinished">Строка пути</translation>
     </message>
 </context>
 <context>
@@ -4105,35 +4145,35 @@
     <name>design/admin/content/versions</name>
     <message>
         <source>Unable to create new version</source>
-        <translation>Невозможно создать новую версию</translation>
+        <translation type="obsolete">Невозможно создать новую версию</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Предел размера истории версий был достигнут и невозможно удалить заархивированые версии.</translation>
+        <translation type="obsolete">Предел размера истории версий был достигнут и невозможно удалить заархивированые версии.</translation>
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Вы можете изменить установки истории версий в content.ini, удалите черновики или редактируйте существующий черновик.</translation>
+        <translation type="obsolete">Вы можете изменить установки истории версий в content.ini, удалите черновики или редактируйте существующий черновик.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Версии объекта &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Версии объекта &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation type="obsolete">Версия</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation type="obsolete">Статус</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Создатель</translation>
+        <translation type="obsolete">Создатель</translation>
     </message>
     <message>
         <source>Created</source>
-        <translation>Создан</translation>
+        <translation type="obsolete">Создан</translation>
     </message>
     <message>
         <source>Draft</source>
@@ -4153,63 +4193,63 @@
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Отвергнутая</translation>
+        <translation type="obsolete">Отвергнутая</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Изм</translation>
+        <translation type="obsolete">Изм</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation>Удалить выбранные</translation>
+        <translation type="obsolete">Удалить выбранные</translation>
     </message>
     <message>
         <source>Object information</source>
-        <translation>Объект</translation>
+        <translation type="obsolete">Объект</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>Код</translation>
+        <translation type="obsolete">Код</translation>
     </message>
     <message>
         <source>Not yet published</source>
-        <translation>Не размещена</translation>
+        <translation type="obsolete">Не размещена</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Изменен</translation>
+        <translation type="obsolete">Изменен</translation>
     </message>
     <message>
         <source>Published version</source>
-        <translation>Размещенная версия</translation>
+        <translation type="obsolete">Размещенная версия</translation>
     </message>
     <message>
         <source>Select version #%version_number for removal.</source>
-        <translation>Отметьте версию #%version для удаления.</translation>
+        <translation type="obsolete">Отметьте версию #%version для удаления.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation>Просмотр содержимого версии #%version_number. Язык: %default_translation.</translation>
+        <translation type="obsolete">Просмотр содержимого версии #%version_number. Язык: %default_translation.</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Копировать</translation>
+        <translation type="obsolete">Копировать</translation>
     </message>
     <message>
         <source>Create a copy of version #%version_number.</source>
-        <translation>Создать копию из версии  #%version_number.</translation>
+        <translation type="obsolete">Создать копию из версии  #%version_number.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
-        <translation>Изменить содержимое версии #%version_number.</translation>
+        <translation type="obsolete">Изменить содержимое версии #%version_number.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Этот объект не имеет версий.</translation>
+        <translation type="obsolete">Этот объект не имеет версий.</translation>
     </message>
     <message>
         <source>Remove the selected versions from the object.</source>
-        <translation>Удалить выбранные версии из объекта.</translation>
+        <translation type="obsolete">Удалить выбранные версии из объекта.</translation>
     </message>
     <message>
         <source>Untouched draft</source>
@@ -4217,51 +4257,51 @@
     </message>
     <message>
         <source>Back</source>
-        <translation>Вернуться назад</translation>
+        <translation type="obsolete">Вернуться назад</translation>
     </message>
     <message>
         <source>Modified translation</source>
-        <translation>Измененный перевод</translation>
+        <translation type="obsolete">Измененный перевод</translation>
     </message>
     <message>
         <source>Version is not a draft</source>
-        <translation>Версия не является черновиком</translation>
+        <translation type="obsolete">Версия не является черновиком</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation>Версия %1больше недоступна для редактирования. Только черновики могут быть отредактированы.</translation>
+        <translation type="obsolete">Версия %1больше недоступна для редактирования. Только черновики могут быть отредактированы.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation>Для того чтобы редактировать эту версию, сначала создайте ее копию.</translation>
+        <translation type="obsolete">Для того чтобы редактировать эту версию, сначала создайте ее копию.</translation>
     </message>
     <message>
         <source>Version is not yours</source>
-        <translation>Версия не ваша</translation>
+        <translation type="obsolete">Версия не ваша</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation>Версия %1 создана не вами. Вы можете редактировать только свои черновики.</translation>
+        <translation type="obsolete">Версия %1 создана не вами. Вы можете редактировать только свои черновики.</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation>Невозможно удалить версию #%version_number, так как она либо является опубликованной версией объекта, либо у вас нет прав на удаление.</translation>
+        <translation type="obsolete">Невозможно удалить версию #%version_number, так как она либо является опубликованной версией объекта, либо у вас нет прав на удаление.</translation>
     </message>
     <message>
         <source>There is no need to make copies of untouched drafts.</source>
-        <translation>Нет необходимости делать копии нетронутых черновиков.</translation>
+        <translation type="obsolete">Нет необходимости делать копии нетронутых черновиков.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation>Вы не можете делать копии версий, так как у вас нет прав редактировать объект.</translation>
+        <translation type="obsolete">Вы не можете делать копии версий, так как у вас нет прав редактировать объект.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>Вы не можете редактировать содержимое версии #%version_number, так как либо это не черновик, либо у вас нет прав редактировать объект.</translation>
+        <translation type="obsolete">Вы не можете редактировать содержимое версии #%version_number, так как либо это не черновик, либо у вас нет прав редактировать объект.</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; (%version_count)</source>
-        <translation>Версии объекта &lt;%object_name&gt; (%version_count)</translation>
+        <translation type="obsolete">Версии объекта &lt;%object_name&gt; (%version_count)</translation>
     </message>
 </context>
 <context>
@@ -4453,6 +4493,14 @@
         <source>Object ID</source>
         <translation type="unfinished">Код объекта</translation>
     </message>
+    <message>
+        <source>Dynamic tree menu is disabled for this siteaccess!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal errorD</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/dashboard/all_latest_content</name>
@@ -4574,7 +4622,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If your installation is not running eZ Publish Premium, it might not be up to date with the latest maintenance service packs. Contact eZ Systems.</source>
+        <source>If your installation is not running eZ Publish Enterprise, it might not be up to date with the latest maintenance service packs. Contact eZ Systems.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5164,6 +5212,14 @@
     <message>
         <source>The lines marked with red contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
         <translation>Строчки, отмеченные красным цветом, содержат количество узлов, превышающее максимальное для удаления ветви, и не будут удалены. Вы можете удалить эту ветвь с помощью скрипта ezsubtreeremove.php.</translation>
+    </message>
+    <message>
+        <source>Pending sub-object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5911,10 +5967,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Tab is disabled, enable on dashboard.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Translations (%count)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5940,22 +5992,14 @@
     </message>
     <message>
         <source>Create</source>
-        <translation type="unfinished">Создать</translation>
+        <translation type="obsolete">Создать</translation>
     </message>
     <message>
         <source>in</source>
-        <translation type="unfinished">в</translation>
-    </message>
-    <message>
-        <source>Here</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">в</translation>
     </message>
     <message>
         <source>Published order</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>List of sub items of current node, with controlls to edit, remove and move them directly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6029,6 +6073,98 @@
     <message>
         <source>Language list of translations for current object.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tab is disabled, enable with toggler to the left of these tabs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show simplified view of content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ordering</source>
+        <translation type="unfinished">Сортировка</translation>
+    </message>
+    <message>
+        <source>Show published ordering overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Node remote ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object remote ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of items per page:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visible table columns:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Выбрать</translation>
+    </message>
+    <message>
+        <source>Select all visible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new</source>
+        <translation type="unfinished">Создать</translation>
+    </message>
+    <message>
+        <source>More actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the checkboxes to select one or more items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>prev</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished">Инвертировать выбор</translation>
+    </message>
+    <message>
+        <source>Path String</source>
+        <translation type="unfinished">Строка пути</translation>
     </message>
 </context>
 <context>
@@ -6821,11 +6957,11 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>User perferences</source>
+        <source>Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Dashboard</source>
+        <source>User preferences</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7020,15 +7156,19 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Preview tab</source>
+        <source>Enable &amp;quot;Tabs&amp;quot; by default  while browsing content.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disable &amp;quot;Preview tab&amp;quot; while browsing content.</source>
+        <source>Disable &amp;quot;Tabs&amp;quot; by default  while browsing content.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable &amp;quot;Preview tab&amp;quot; while browsing content.</source>
+        <source>Enable &amp;quot;Tabs&amp;quot; by default while browsing content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable &amp;quot;Tabs&amp;quot; by default while browsing content.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7047,7 +7187,7 @@ Note: The packages will not be uninstalled.</source>
         <translation>Информация о системе</translation>
     </message>
     <message>
-        <source>URL management</source>
+        <source>Link management</source>
         <translation>Управление URL</translation>
     </message>
     <message>
@@ -7138,6 +7278,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>States</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URL management</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7590,6 +7734,14 @@ Note: The packages will not be uninstalled.</source>
         <source>New translation</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Sitemap for subtree</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/preview/article</name>
@@ -7642,6 +7794,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Your email address</source>
         <translation>Ваш E-mail</translation>
+    </message>
+    <message>
+        <source>Your name</source>
+        <translation type="unfinished">Ваше имя</translation>
     </message>
 </context>
 <context>
@@ -8992,6 +9148,26 @@ Note: The packages will not be uninstalled.</source>
         <source>Navigation part</source>
         <translation>Часть навигации</translation>
     </message>
+    <message>
+        <source>Identifier can not be empty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier should consist of letters, numbers or &apos;_&apos; with letter prefix.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The identifier has been used in another section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section edit error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/section/list</name>
@@ -9061,6 +9237,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Assign a subtree to the &lt;%section_name&gt; section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9144,6 +9324,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Assign subtree of objects to this section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9559,10 +9743,6 @@ Note: The packages will not be uninstalled.</source>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source></source>
-        <translation></translation>
-    </message>
 </context>
 <context>
     <name>design/admin/setup/datatypecode</name>
@@ -9623,7 +9803,15 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Activate</source>
-        <translation type="unfinished">Активировать</translation>
+        <translation type="obsolete">Активировать</translation>
+    </message>
+    <message>
+        <source>Activate or deactivate extension. Use the &quot;Update&quot; button to apply the changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation type="unfinished">Обновить</translation>
     </message>
 </context>
 <context>
@@ -9806,7 +9994,7 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>SVN revision</source>
         <comment>eZ Publish version</comment>
-        <translation>SVN ревизия</translation>
+        <translation type="obsolete">SVN ревизия</translation>
     </message>
     <message>
         <source>Extensions</source>
@@ -10205,10 +10393,6 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The operation were cut short in order to avoid execution timeout.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Your alternatives are to:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10222,6 +10406,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Install the session cleanup cronjob &apos;session_gc.php&apos; and run on nightly intervals (see cronjob.ini or doc for how)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The operation was cut short in order to avoid execution timeout.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12015,10 +12203,6 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save changes to this states.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cancel</source>
         <translation type="unfinished">Отменить</translation>
     </message>
@@ -12040,6 +12224,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Description:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save changes to this state.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12319,16 +12507,16 @@ Note: The packages will not be uninstalled.</source>
         <translation>Адрес URL</translation>
     </message>
     <message>
-        <source>Valid URLs [%url_list_count]</source>
-        <translation>Работающие адреса [%url_list_count]</translation>
+        <source>Valid links [%url_list_count]</source>
+        <translation type="obsolete">Работающие адреса [%url_list_count]</translation>
     </message>
     <message>
-        <source>Invalid URLs [%url_list_count]</source>
-        <translation>Не работающие адреса [%url_list_count]</translation>
+        <source>Invalid links [%url_list_count]</source>
+        <translation type="obsolete">Не работающие адреса [%url_list_count]</translation>
     </message>
     <message>
-        <source>All URLs [%url_list_count]</source>
-        <translation>Все адреса [%url_list_count]</translation>
+        <source>All links [%url_list_count]</source>
+        <translation type="obsolete">Все адреса [%url_list_count]</translation>
     </message>
     <message>
         <source>All</source>
@@ -12403,16 +12591,28 @@ Note: The packages will not be uninstalled.</source>
         <translation>Запрошенный список не содержит адресов.</translation>
     </message>
     <message>
-        <source>Valid URLs (%url_list_count)</source>
+        <source>Valid links (%url_list_count)</source>
         <translation>Работающие адреса (%url_list_count)</translation>
     </message>
     <message>
-        <source>Invalid URLs (%url_list_count)</source>
+        <source>Invalid links (%url_list_count)</source>
         <translation>Не работающие адреса (%url_list_count)</translation>
     </message>
     <message>
-        <source>All URLs (%url_list_count)</source>
+        <source>All links (%url_list_count)</source>
         <translation>Все адреса (%url_list_count)</translation>
+    </message>
+    <message>
+        <source>Valid URLs [%url_list_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid URLs [%url_list_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All URLs [%url_list_count]</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -13214,6 +13414,14 @@ your account.</source>
     <message>
         <source>The following information is either missing or invalid</source>
         <translation>Следующая информация либо отсутствует, либо недействительная</translation>
+    </message>
+    <message>
+        <source>Error : Could not load workflow event &quot;%eventtype&quot; (event type not available)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hint : This can happen when a workflow extension has been disabled</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -14220,23 +14428,30 @@ your account.</source>
     <name>design/ezwebin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished">Год</translation>
+        <translation type="obsolete">Год</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished">Месяц</translation>
+        <translation type="obsolete">Месяц</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished">День</translation>
+        <translation type="obsolete">День</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished">Час</translation>
+        <translation type="obsolete">Час</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished">Минута</translation>
+        <translation type="obsolete">Минута</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/node/removeobject</name>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -14923,7 +15138,15 @@ your account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>seconds(s)</source>
+        <source>Html5 Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Html5 Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second(s)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -15575,6 +15798,18 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>Below you will find a list of active translations that content objects may be translated into.</source>
         <translation>Далее указан список активных переводов, при помощи которых объекты содержимого могут быть переведены.</translation>
+    </message>
+    <message>
+        <source>Your content is being published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing finished</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your content is pending an external action</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -16401,80 +16636,108 @@ If you want to send comments to the approver or view the status use the URL belo
         <source>Find objects</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The related objects will be edited in the same language as this object. If such translations do not exist they will be created, based on the source language of your choice.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translation base</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is already translated, the existing translation will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This object is not translated, please select the language the new translation will be based on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 video.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 audio.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm email</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/diff</name>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation type="obsolete">Версия</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation type="obsolete">Статус</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Переводы</translation>
+        <translation type="obsolete">Переводы</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Создатель</translation>
+        <translation type="obsolete">Создатель</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Изменен</translation>
+        <translation type="obsolete">Изменен</translation>
     </message>
     <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Версии объекта &lt;%object_name&gt; [%version_count]</translation>
+        <translation type="obsolete">Версии объекта &lt;%object_name&gt; [%version_count]</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Черновик</translation>
+        <translation type="obsolete">Черновик</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Размещен</translation>
+        <translation type="obsolete">Размещен</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>Ожидающий</translation>
+        <translation type="obsolete">Ожидающий</translation>
     </message>
     <message>
         <source>Archived</source>
-        <translation>Архивный</translation>
+        <translation type="obsolete">Архивный</translation>
     </message>
     <message>
         <source>Rejected</source>
-        <translation>Отклонен</translation>
+        <translation type="obsolete">Отклонен</translation>
     </message>
     <message>
         <source>Untouched draft</source>
-        <translation>Нетронутый черновик</translation>
+        <translation type="obsolete">Нетронутый черновик</translation>
     </message>
     <message>
         <source>Show differences</source>
-        <translation>Показать изменения</translation>
+        <translation type="obsolete">Показать изменения</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Изменения между версиями %oldVersion и %newVersion</translation>
+        <translation type="obsolete">Изменения между версиями %oldVersion и %newVersion</translation>
     </message>
     <message>
         <source>Inline changes</source>
-        <translation>Изменения inline</translation>
+        <translation type="obsolete">Изменения inline</translation>
     </message>
     <message>
         <source>Block changes</source>
-        <translation>Изменения block</translation>
+        <translation type="obsolete">Изменения block</translation>
     </message>
     <message>
         <source>Old version</source>
-        <translation>Старая версия</translation>
+        <translation type="obsolete">Старая версия</translation>
     </message>
     <message>
         <source>New version</source>
-        <translation>Новая версия</translation>
+        <translation type="obsolete">Новая версия</translation>
     </message>
 </context>
 <context>
@@ -17374,74 +17637,74 @@ If you want to send comments to the approver or view the status use the URL belo
     <name>design/standard/content/version</name>
     <message>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation type="obsolete">Версия</translation>
     </message>
     <message>
         <source>Versions for: %1</source>
-        <translation>Версии %1</translation>
+        <translation type="obsolete">Версии %1</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
-        <translation>Невозможно создать новую версию</translation>
+        <translation type="obsolete">Невозможно создать новую версию</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Редактировать</translation>
+        <translation type="obsolete">Редактировать</translation>
     </message>
     <message>
         <source>Copy and edit</source>
-        <translation>Копировать и редактировать</translation>
+        <translation type="obsolete">Копировать и редактировать</translation>
     </message>
     <message>
         <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Предел размера истории версий был достигнут и невозможно удалить заархивированые версии.</translation>
+        <translation type="obsolete">Предел размера истории версий был достигнут и невозможно удалить заархивированые версии.</translation>
     </message>
     <message>
         <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Вы можете изменить установки истории версий в content.ini, удалите черновики или редактируйте существующий черновик.</translation>
+        <translation type="obsolete">Вы можете изменить установки истории версий в content.ini, удалите черновики или редактируйте существующий черновик.</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation>Версия %1 недоступна для редактирования, только черновики могут быть отредактированы.</translation>
+        <translation type="obsolete">Версия %1 недоступна для редактирования, только черновики могут быть отредактированы.</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Статус</translation>
+        <translation type="obsolete">Статус</translation>
     </message>
     <message>
         <source>Translations</source>
-        <translation>Переводы</translation>
+        <translation type="obsolete">Переводы</translation>
     </message>
     <message>
         <source>Creator</source>
-        <translation>Создатель</translation>
+        <translation type="obsolete">Создатель</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation>Изменено</translation>
+        <translation type="obsolete">Изменено</translation>
     </message>
     <message>
         <source>Version is not a draft</source>
-        <translation>Версия не является черновиком</translation>
+        <translation type="obsolete">Версия не является черновиком</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation>Для того чтобы редактировать эту версию, сначала создайте ее копию.</translation>
+        <translation type="obsolete">Для того чтобы редактировать эту версию, сначала создайте ее копию.</translation>
     </message>
     <message>
         <source>Version is not yours</source>
-        <translation>Версия не ваша</translation>
+        <translation type="obsolete">Версия не ваша</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation>Версия %1 создана не вами. Вы можете редактировать только свои черновики.</translation>
+        <translation type="obsolete">Версия %1 создана не вами. Вы можете редактировать только свои черновики.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/versions</name>
     <message>
         <source>This object does not have any versions.</source>
-        <translation>Этот объект не имеет версий.</translation>
+        <translation type="obsolete">Этот объект не имеет версий.</translation>
     </message>
 </context>
 <context>
@@ -18353,6 +18616,26 @@ If you do all the children will be removed as well.</source>
         <source>Cancel removal</source>
         <translation>Отменить удаление</translation>
     </message>
+    <message>
+        <source>Please wait while your content is being published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your content has been published successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View the published item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing has been deferred to crontab and will be published when the operation resumes. The object is also listed in your dashboard under pending items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View your pending content</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/menuconfig</name>
@@ -18432,7 +18715,7 @@ If you do all the children will be removed as well.</source>
     </message>
     <message>
         <source>Are you sure you want to remove these items?</source>
-        <translation>Вы уверены, что хотите это удалить?</translation>
+        <translation type="obsolete">Вы уверены, что хотите это удалить?</translation>
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
@@ -20807,7 +21090,7 @@ By using %operatorname you can ...</source>
     <message>
         <source>SVN revision</source>
         <comment>eZ Publish version</comment>
-        <translation>SVN ревизия</translation>
+        <translation type="obsolete">SVN ревизия</translation>
     </message>
     <message>
         <source>Extensions</source>
@@ -22517,10 +22800,6 @@ This functionality is also available at a later time from the Administration Int
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The operation were cut short in order to avoid execution timeout.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Your alternatives are to:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -22534,6 +22813,14 @@ This functionality is also available at a later time from the Administration Int
     </message>
     <message>
         <source>Install the session cleanup cronjob &apos;session_gc.php&apos; and run on nightly intervals (see cronjob.ini or doc for how)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The operation was cut short in order to avoid execution timeout.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your current session handler does not support session administration.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -23122,7 +23409,7 @@ To do this you need to change the %chown commands under Alternative shell comman
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>PHP is currently not configured to register enviroment variables in the global variable $_ENV.</source>
+        <source>PHP is currently not configured to register environment variables in the global variable $_ENV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -23158,7 +23445,7 @@ To do this you need to change the %chown commands under Alternative shell comman
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Since some extensions might use $_ENV it is recomended to fix it unless you have full controll over all extensions you use!</source>
+        <source>Since some extensions might use $_ENV it is recommended to fix it unless you have full control over all extensions you use!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -24321,16 +24608,16 @@ To do this you need to change the %chown commands under Alternative shell comman
         <translation>Неизвестный</translation>
     </message>
     <message>
-        <source>All URLs</source>
-        <translation>Все адреса</translation>
+        <source>All links</source>
+        <translation type="obsolete">Все адреса</translation>
     </message>
     <message>
-        <source>Invalid URLs</source>
-        <translation>Неправильный адрес</translation>
+        <source>Invalid links</source>
+        <translation type="obsolete">Неправильный адрес</translation>
     </message>
     <message>
-        <source>Valid URLs</source>
-        <translation>Правильные адреса</translation>
+        <source>Valid links</source>
+        <translation type="obsolete">Правильные адреса</translation>
     </message>
     <message>
         <source>Information on URL</source>
@@ -24355,6 +24642,18 @@ To do this you need to change the %chown commands under Alternative shell comman
     <message>
         <source>This means that the URL is no longer available or has been moved.</source>
         <translation>Это означает, что адрес больше не доступен или перемещен.</translation>
+    </message>
+    <message>
+        <source>All URLs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid URLs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Valid URLs</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -24581,6 +24880,10 @@ your account.</source>
         <source>The new password must be at least %1 characters long. Please retype your new password.</source>
         <translation type="unfinished">Новый пароль должен содержать, как минимум, %1 символов. Введите новый пароль еще раз.</translation>
     </message>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/user/</name>
@@ -24690,6 +24993,14 @@ your account.</source>
         <source>Username</source>
         <comment>Login name</comment>
         <translation>Имя пользователя</translation>
+    </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25405,6 +25716,182 @@ your account.</source>
     </message>
 </context>
 <context>
+    <name>design/starndard/node</name>
+    <message>
+        <source>Are you sure you want to remove these items?</source>
+        <translation type="unfinished">Вы уверены, что хотите это удалить?</translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauth</name>
+    <message>
+        <source>Application authorization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The application %application_name% has requested access to this website on your behalf.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauth/authorize</name>
+    <message>
+        <source>Authorize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation type="unfinished">Отказать</translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauthadmin</name>
+    <message>
+        <source>New REST application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>oAuth admin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm removal</source>
+        <translation type="unfinished">Подтвердите удаление</translation>
+    </message>
+    <message>
+        <source>Application &lt;%application_name&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Описание</translation>
+    </message>
+    <message>
+        <source>Client identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Client secret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Endpoint URI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished">Удалить</translation>
+    </message>
+    <message>
+        <source>Delete this application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this application?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove these applications?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation type="unfinished">Подтвердить</translation>
+    </message>
+    <message>
+        <source>Confirm removal of these applications.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Отменить</translation>
+    </message>
+    <message>
+        <source>Edit application &lt;%application_name&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the application name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the informal application description.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the application endpoint URI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REST applications (%applications_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished">Инвертировать выбор.</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished">Изменил</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select application for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%application_name&gt; application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove the selected applications.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>kernel/cache</name>
     <message>
         <source>Content view cache</source>
@@ -25476,6 +25963,14 @@ your account.</source>
     </message>
     <message>
         <source>Design base cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active extensions cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TS Translation cache</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -26213,6 +26708,11 @@ your account.</source>
         <comment>eZUserType</comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The emails do not match.</source>
+        <comment>eZUserType</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -26365,7 +26865,7 @@ your account.</source>
     </message>
     <message>
         <source>Versions</source>
-        <translation type="unfinished">Версии</translation>
+        <translation type="obsolete">Версии</translation>
     </message>
     <message>
         <source>My bookmarks</source>
@@ -26437,7 +26937,7 @@ your account.</source>
     </message>
     <message>
         <source>Differences</source>
-        <translation type="unfinished">Изменения</translation>
+        <translation type="obsolete">Изменения</translation>
     </message>
     <message>
         <source>Remove translation</source>
@@ -26517,7 +27017,11 @@ your account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You have already sent a tipafriend mail to this reciver regarding &apos;$nodeName&apos; content</source>
+        <source>You have already sent a tipafriend mail to this receiver regarding &apos;%1&apos; content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing queue</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -26525,7 +27029,7 @@ your account.</source>
     <name>kernel/content/copysubtree</name>
     <message>
         <source>Cannot publish object (ID = %1).</source>
-        <translation type="unfinished">Невозможно размещение объекта (Код = %1).</translation>
+        <translation type="obsolete">Невозможно размещение объекта (Код = %1).</translation>
     </message>
     <message>
         <source>Fatal error: cannot get subtree main node (ID = %1).</source>
@@ -26582,6 +27086,10 @@ your account.</source>
     <message>
         <source>Successfully DONE.</source>
         <translation type="unfinished">Успешно выполнено.</translation>
+    </message>
+    <message>
+        <source>Cannot publish object (Name: %1, ID: %2).</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26681,6 +27189,14 @@ your account.</source>
     <message>
         <source>The size of the uploaded file exceeds the limit set for this site: %1 bytes.</source>
         <translation type="unfinished">Размер загружаемого файла превышает ограничение этого сайта на %1 байт.</translation>
+    </message>
+    <message>
+        <source>The uploaded file size is above the maximum limit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A system error occured while writing the uploaded file.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26814,6 +27330,25 @@ your account.</source>
     <message>
         <source>Notification settings</source>
         <translation type="unfinished">Установки уведомления</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/oauthadmin</name>
+    <message>
+        <source>oAuth admin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit REST application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Registered REST applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REST application: %application_name%</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -27781,6 +28316,14 @@ your account.</source>
         <source>Success</source>
         <translation type="unfinished">Успешно</translation>
     </message>
+    <message>
+        <source>oAuth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>authorization</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/register</name>
@@ -27791,6 +28334,10 @@ your account.</source>
     <message>
         <source>New user registered</source>
         <translation type="unfinished">Новый пользователь зарегистрирован</translation>
+    </message>
+    <message>
+        <source>User registration approved</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -27880,6 +28427,10 @@ your account.</source>
     <message>
         <source>Payment Gateway</source>
         <translation type="unfinished">Шлюз платежной системы</translation>
+    </message>
+    <message>
+        <source>Finish User Registration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

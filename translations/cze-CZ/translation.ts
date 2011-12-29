@@ -1,9 +1,26 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="cs_CZ">
 <context>
     <name>contentstructuremenu/show_content_structure</name>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
         <translation>Uzel ID: %node_id Viditelnost: %visibility</translation>
+    </message>
+</context>
+<context>
+    <name>design</name>
+    <message>
+        <source>%group_name [Content object state group]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%state_name [Content object state]</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -103,6 +120,14 @@
     <message>
         <source>Use this menu to select the language you to want use then click the &quot;New class&quot; button. The item will be created within the current location.</source>
         <translation>Použijte toto menu pro volbu jazyka a pak klikněte na tlačítko &quot;Nová třída&quot;. Bude vytvořena v aktuálním umístění.</translation>
+    </message>
+    <message>
+        <source>Classes inside &lt;%group_name&gt; (%class_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of classes inside %group_name class group (%class_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -333,6 +358,46 @@
         <source>The &lt;%datatype_name&gt; datatype cannot be used as an information collector.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The draft of the class definition was successfully stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%class_name&gt; (%object_count objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <source>Use this field to set the informal description of the class. The description field can contain whitespaces and special characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of class attributes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class attribute item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the informal description of the attribute. This field can contain whitespaces and special characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this category to group attributes together in edit interface, some categories might also be hidden in full view if they are for instance only meta attributes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/class/edit_denied</name>
@@ -480,6 +545,22 @@
     <message>
         <source>Edit the &lt;%class_name&gt; class.</source>
         <translation>Upravit třídu &lt;%class_name&gt;.</translation>
+    </message>
+    <message>
+        <source>Class groups (%group_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of class groups</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of recently modified classes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation type="unfinished">Objekty</translation>
     </message>
 </context>
 <context>
@@ -841,7 +922,7 @@
     </message>
     <message>
         <source>Default sorting of children</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Výchozí řazení potomků</translation>
     </message>
     <message>
         <source>Another language</source>
@@ -897,10 +978,54 @@
     </message>
     <message>
         <source>URL alias name pattern</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Vzor jména objektu v URL adrese</translation>
     </message>
     <message>
         <source>Use this menu to select the language you want to use for editing then click the &quot;Edit&quot; button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class storing deferred</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The storing of the class has been deferred because existing objects need to be updated. The process has been scheduled to run in the background and will be started automatically. Please do not edit the class again until the process has finished. You can monitor the progress of the background process here:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Background process monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class name and number of objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Member of class groups (%group_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Override templates (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations (%translations)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm removal</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1148,6 +1273,10 @@
     </message>
     <message>
         <source>You do not have permission to edit the contents of &lt;%bookmark_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>My bookmarks (%bookmark_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1488,10 +1617,37 @@
     </message>
 </context>
 <context>
+    <name>design/admin/content/dashboard</name>
+    <message>
+        <source>Dashboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>design/admin/content/datatype</name>
     <message>
         <source>No media file is available.</source>
         <translation>Není k dispozici žádný soubor s médii.</translation>
+    </message>
+    <message>
+        <source>Year</source>
+        <translation type="unfinished">Rok</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation type="unfinished">Měsíc</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation type="unfinished">Den</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation type="unfinished">Hodina</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation type="unfinished">Minuta</translation>
     </message>
 </context>
 <context>
@@ -1499,81 +1655,6 @@
     <message>
         <source>Account status</source>
         <translation>Stav účtu</translation>
-    </message>
-</context>
-<context>
-    <name>design/admin/content/diff</name>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze pro &lt;%object_name&gt; [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Verze</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Stav</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation>Překlady</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation>Vytvořil</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Změněno</translation>
-    </message>
-    <message>
-        <source>Draft</source>
-        <translation>Koncept</translation>
-    </message>
-    <message>
-        <source>Published</source>
-        <translation>Vydáno</translation>
-    </message>
-    <message>
-        <source>Pending</source>
-        <translation>Čeká</translation>
-    </message>
-    <message>
-        <source>Archived</source>
-        <translation>Archivováno</translation>
-    </message>
-    <message>
-        <source>Rejected</source>
-        <translation>Odmítnuto</translation>
-    </message>
-    <message>
-        <source>Untouched draft</source>
-        <translation>Nezměněný koncept</translation>
-    </message>
-    <message>
-        <source>Show differences</source>
-        <translation>Zobrazit rozdíly</translation>
-    </message>
-    <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Změny mezi verzí %oldVersion a  %newVersion</translation>
-    </message>
-    <message>
-        <source>Old version</source>
-        <translation>Stará verze</translation>
-    </message>
-    <message>
-        <source>Inline changes</source>
-        <translation>Změny vloženě</translation>
-    </message>
-    <message>
-        <source>Block changes</source>
-        <translation>Změny v blocích</translation>
-    </message>
-    <message>
-        <source>New version</source>
-        <translation>Nová verze</translation>
     </message>
 </context>
 <context>
@@ -1645,6 +1726,10 @@
     <message>
         <source>Language</source>
         <translation>Jazyk</translation>
+    </message>
+    <message>
+        <source>My drafts (%draft_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2025,6 +2110,74 @@
         <source>You do not have permission to view this object</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>States</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following data is invalid according to the custom validation rules</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle fullscreen editing!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store draft and exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%object_name&gt; (%class_name)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path String</source>
+        <translation type="unfinished">Řetězec umístění</translation>
+    </message>
+    <message>
+        <source>Locations (%locations)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation type="unfinished">Náhled</translation>
+    </message>
+    <message>
+        <source>Preview the draft that is being edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Base translation on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation type="unfinished">Žádný</translation>
+    </message>
+    <message>
+        <source>Related objects (%related_objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related images (%related_images)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related files (%related_files)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related content (%related_objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/edit_attribute</name>
@@ -2191,6 +2344,14 @@
         <source>You cannot edit any of the drafts because none of them belong to you. You can create a new draft, select it and then edit it.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Conflicting versions (%draft_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current drafts (%draft_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/edit_languages</name>
@@ -2268,6 +2429,26 @@
     </message>
     <message>
         <source>However you can select one of the following languages for editing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the translation you want to edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the translation you want to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translate based on</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2427,42 +2608,50 @@
     </message>
     <message>
         <source>Version is not a draft</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tato verze není koncept</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze %1 už není k dispozici pro úpravy. Je možné upravovat pouze koncepty.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pro úpravy této verze vytvořte nejprve její kopii (a tu pak upravte podle potřeb nebo odešlete k publikaci v původní podobě).</translation>
     </message>
     <message>
         <source>Version is not yours</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nejste vlastníkem této verze</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze %1 nebyla vytvořena vámi. Můžete upravovat pouze vámi vlastněné verze.</translation>
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Změněný překlad</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze #%version_number nemůže být odstraněna protože je buď právě publikovanou verzí objektu, nebo nemáte oprávnění k jejímu odstranění.</translation>
     </message>
     <message>
         <source>There is no need to make copies of untouched drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Je zbytečné vytvářet kopie nezměněných konceptů. Upravujte přímo  koncept.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nemůžete vytvářet kopie verzí protože nemáte oprávnění k úpravám objektu.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
+        <translation type="unfinished">Nemůžete upravit obsah verze #%version_number protože buď to není koncept, nebo nemáte oprávnění k úpravám objektu.</translation>
+    </message>
+    <message>
+        <source>Versions for &lt;%object_name&gt; (%version_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New drafts (%newerDraftCount)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2495,6 +2684,10 @@
     <message>
         <source>Unknown</source>
         <translation>Neznámý</translation>
+    </message>
+    <message>
+        <source>My pending items (%pending_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2747,6 +2940,10 @@
         <source>This subtree/item has no external relations.</source>
         <translation>Tento podstrom/prvek nemá žádné externí relace.</translation>
     </message>
+    <message>
+        <source>&quot;%contentObjectName&quot; (%children_count): Sub items that are used by other objects </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/search</name>
@@ -2989,6 +3186,14 @@
         <source>The language cannot be removed because it is in use.</source>
         <translation>Jazyk nemůže být odebrán, protože je pouříván.</translation>
     </message>
+    <message>
+        <source>Available languages for translation of content (%translations_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle all.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/translationview</name>
@@ -3198,6 +3403,10 @@
     <message>
         <source>Use these checkboxes to mark items for removal. Click the &quot;Remove selected&quot; button to remove the selected items.</source>
         <translation>Použijte tyto zaškrtávátka pro označení prvků k odstranění. Klikněte na &quot;Odstranit vybrané&quot; pro odstranění vybraných prvků.</translation>
+    </message>
+    <message>
+        <source>Trash (%list_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3516,6 +3725,14 @@
         <source>&lt;em&gt;Un-check&lt;/em&gt; to create the new alias under %link. Leave it checked and the new alias will be created on &lt;em&gt;&lt;a href=&apos;/&apos;&gt;%siteroot&lt;/a&gt;&lt;/em&gt;.</source>
         <translation>URL alias &lt;%new_alias&gt; již existuje a ukazuje na &lt;%action_url&gt;.</translation>
     </message>
+    <message>
+        <source>URL aliases for &lt;%node_name&gt; (%alias_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Generated aliases (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/urlalias_global</name>
@@ -3656,10 +3873,6 @@
         <translation>Vložte URL pro nový alias. Použijte lomítka (/) pro vytvoření podprvků.</translation>
     </message>
     <message>
-        <source>Destination (path to existing funtionality or resource)</source>
-        <translation>Cíl (cesta k existující funkcionalitě nebo obsahu)</translation>
-    </message>
-    <message>
         <source>Enter the destination URL for the new alias. Use forward slashes (/) to create subentries.</source>
         <translation>Vložte cílové URL pro nový alias. Použijte lomítka (/) pro vytvoření podprvků.</translation>
     </message>
@@ -3694,6 +3907,14 @@
     <message>
         <source>Direct</source>
         <translation>Přímé zobrazení</translation>
+    </message>
+    <message>
+        <source>Destination (path to existing functionality or resource)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Globally defined URL aliases (%alias_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3803,14 +4024,6 @@
         <translation>Nová všeberoucí URL hvězdíčka</translation>
     </message>
     <message>
-        <source>Enter the URL for the new wildcard. Example: /developer/*</source>
-        <translation>Vložte vzor URL pro hvězdičku, například: /prodejce/*</translation>
-    </message>
-    <message>
-        <source>Enter the destination URL for the new wildcard. Example: /dev/{1\}</source>
-        <translation>Vložte vzor cílového URL pro novou hvězdičku. například: /prodej/{1\}</translation>
-    </message>
-    <message>
         <source>Perform redirecting.</source>
         <translation>Prováděj přesměrování.</translation>
     </message>
@@ -3822,41 +4035,21 @@
         <source>Create a new wildcard URL alias.</source>
         <translation>Vytvořit nový hvězdičkový (všeberoucí) URL alias.</translation>
     </message>
+    <message>
+        <source>Enter the URL for the new wildcard. Example: developer/*</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the destination URL for the new wildcard. Example: dev/{1\}</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Defined URL aliases with wildcard(%wildcard_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/content/versions</name>
-    <message>
-        <source>Unable to create new version</source>
-        <translation>Nelze vytvořit novou verzi</translation>
-    </message>
-    <message>
-        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Bylo dosaženo maximálního počtu archivovaných verzí a systém nemůže sám archivované verze smazat.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Můžete zavolat správce, změnit nastavení archivování verzí v content.ini, odstranit koncepty nebo provést editaci existujících konceptů. </translation>
-    </message>
-    <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze pro &lt;%object_name&gt; [%version_count]</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Verze</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Stav</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation>Vytvořil</translation>
-    </message>
-    <message>
-        <source>Created</source>
-        <translation>Vytvořeno</translation>
-    </message>
     <message>
         <source>Draft</source>
         <translation>Koncept</translation>
@@ -3874,112 +4067,8 @@
         <translation>Archivováno</translation>
     </message>
     <message>
-        <source>Rejected</source>
-        <translation>Odmítnuto</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Upravit</translation>
-    </message>
-    <message>
-        <source>Remove selected</source>
-        <translation>Odstranit vybrané</translation>
-    </message>
-    <message>
-        <source>Object information</source>
-        <translation>Informace o objektu</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <source>Not yet published</source>
-        <translation>Zatím nevydáno</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Změněno</translation>
-    </message>
-    <message>
-        <source>Published version</source>
-        <translation>Publikovaná verze</translation>
-    </message>
-    <message>
-        <source>Select version #%version_number for removal.</source>
-        <translation>Zvolit verzi #%version_number k odstranění.</translation>
-    </message>
-    <message>
-        <source>View the contents of version #%version_number. Translation: %translation.</source>
-        <translation>Zobrazit obsah verze #%version_number. Překlad: %translation.</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Kopírovat</translation>
-    </message>
-    <message>
-        <source>Create a copy of version #%version_number.</source>
-        <translation>Vytvořit kopii verze #%version_number.</translation>
-    </message>
-    <message>
-        <source>Edit the contents of version #%version_number.</source>
-        <translation>Upravit obsah verze #%version_number.</translation>
-    </message>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation>Tento objekt nemá žádné verze.</translation>
-    </message>
-    <message>
-        <source>Remove the selected versions from the object.</source>
-        <translation>Odebrat zvolené verze z objektu.</translation>
-    </message>
-    <message>
         <source>Untouched draft</source>
         <translation>Neupravovaný koncept</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Zpět</translation>
-    </message>
-    <message>
-        <source>Version is not a draft</source>
-        <translation>Tato verze není koncept</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation>Verze %1 už není k dispozici pro úpravy. Je možné upravovat pouze koncepty.</translation>
-    </message>
-    <message>
-        <source>To edit this version, first create a copy of it.</source>
-        <translation>Pro úpravy této verze vytvořte nejprve její kopii (a tu pak upravte podle potřeb nebo odešlete k publikaci v původní podobě).</translation>
-    </message>
-    <message>
-        <source>Version is not yours</source>
-        <translation>Nejste vlastníkem této verze</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation>Verze %1 nebyla vytvořena vámi. Můžete upravovat pouze vámi vlastněné verze.</translation>
-    </message>
-    <message>
-        <source>Modified translation</source>
-        <translation>Změněný překlad</translation>
-    </message>
-    <message>
-        <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation>Verze #%version_number nemůže být odstraněna protože je buď právě publikovanou verzí objektu, nebo nemáte oprávnění k jejímu odstranění.</translation>
-    </message>
-    <message>
-        <source>There is no need to make copies of untouched drafts.</source>
-        <translation>Je zbytečné vytvářet kopie nezměněných konceptů. Upravujte přímo  koncept.</translation>
-    </message>
-    <message>
-        <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation>Nemůžete vytvářet kopie verzí protože nemáte oprávnění k úpravám objektu.</translation>
-    </message>
-    <message>
-        <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>Nemůžete upravit obsah verze #%version_number protože buď to není koncept, nebo nemáte oprávnění k úpravám objektu.</translation>
     </message>
 </context>
 <context>
@@ -4104,6 +4193,22 @@
         <source>This version is not a draft and therefore cannot be edited.</source>
         <translation>Tato verze není koncept a proto nemůže být upravována.</translation>
     </message>
+    <message>
+        <source>Translation mismatch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your selected translation does not match the language of your selected siteaccess. This may lead to unexpected results in the preview, however it may also be what you intended.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to edit</source>
+        <translation type="unfinished">Zpět k úpravě</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished">Zpět</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/contentstructuremenu</name>
@@ -4150,6 +4255,196 @@
     <message>
         <source>[%classname] Click on the icon to display a context-sensitive menu.</source>
         <translation>[%classname] Klikněte na ikonu pro zobrazení kontectového menu.</translation>
+    </message>
+    <message>
+        <source>Object ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dynamic tree menu is disabled for this siteaccess!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/all_latest_content</name>
+    <message>
+        <source>All latest content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">Vydáno</translation>
+    </message>
+    <message>
+        <source>Author</source>
+        <translation type="unfinished">Autor</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%child_name&gt;.</source>
+        <translation type="unfinished">Upravit &lt;%child_name&gt;.</translation>
+    </message>
+    <message>
+        <source>You do not have permission to edit &lt;%child_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Latest content list is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/drafts</name>
+    <message>
+        <source>My drafts</source>
+        <translation type="unfinished">Mé koncepty</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation type="unfinished">Verze</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Změněno</translation>
+    </message>
+    <message>
+        <source>Edit &lt;%draft_name&gt;.</source>
+        <translation type="unfinished">Úprava &lt;%draft_name&gt;.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently you do not have any drafts available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/latest_content</name>
+    <message>
+        <source>My latest content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Změněno</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%child_name&gt;.</source>
+        <translation type="unfinished">Upravit &lt;%child_name&gt;.</translation>
+    </message>
+    <message>
+        <source>You do not have permission to edit &lt;%child_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your latest content list is empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/maintenance</name>
+    <message>
+        <source>Software update and Maintenance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your installation: &lt;span id=&quot;ez-version&quot;&gt;%1&lt;/span&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If your installation is not running eZ Publish Enterprise, it might not be up to date with the latest maintenance service packs. Contact eZ Systems.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/pending_list</name>
+    <message>
+        <source>My pending items</source>
+        <translation type="unfinished">Mé k vyřízení</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Změněno</translation>
+    </message>
+    <message>
+        <source>Currently you do not have any pending items available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/dashboard/wishlist</name>
+    <message>
+        <source>Wish list</source>
+        <translation type="unfinished">Seznam přání</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation type="unfinished">Vydáno</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%item_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have permission to edit &lt;%item_name&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Currently you do not have any products on your wish list.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4428,6 +4723,10 @@
         <source>Unknown user</source>
         <translation>Neznámý uživatel</translation>
     </message>
+    <message>
+        <source>Information collected by &lt;%object_name&gt; (%collection_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/infocollector/confirmremoval</name>
@@ -4506,6 +4805,10 @@ Odstranit vybrané</translation>
     <message>
         <source>Remove all information that was collected by the selected objects.</source>
         <translation>Vymazat všechny informace, které byly sesbírány vybranými objekty.</translation>
+    </message>
+    <message>
+        <source>Objects that have collected information (%object_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4688,6 +4991,14 @@ Odstranit vybrané</translation>
     </message>
     <message>
         <source>The system will let you restore the object &lt;%name&gt;. Specify where you wish to restore it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending sub-object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5383,6 +5694,254 @@ Odstranit vybrané</translation>
         <source>You do not have permission to change this setting.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Move selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move the selected items from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You do not have permission to move any of the items from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content object state group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Available states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set states</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply states from the list above.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide state assignment widget.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show state assignment widget.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sub items (%children_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Node remote ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object remote ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Table options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Number of items per page:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Visible table columns:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="unfinished">Vybrat</translation>
+    </message>
+    <message>
+        <source>Select all visible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new</source>
+        <translation type="unfinished">Vytvořit nový</translation>
+    </message>
+    <message>
+        <source>More actions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the checkboxes to select one or more items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>first</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>prev</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Node and object details like creator, when it was created, section it belongs to, number of versions and translations, Node ID and Object ID.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>States and their states groups for current object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No content object state is configured. This can be done %urlstart here%urlend.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Locations (aka Nodes) for current object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Published order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path String</source>
+        <translation type="unfinished">Řetězec umístění</translation>
+    </message>
+    <message>
+        <source>Object relation list from current object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Related objects (%related_objects_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverse object relation list to current object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reverse related objects (%related_objects_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object states for object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations (%translations)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Policy list and the Role that are assignet to current node.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limited to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%limitation_identifier %limitation_value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tab is disabled, enable with toggler to the left of these tabs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Policies (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of roles assigned with and without limitations for current node.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roles (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Existing translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Language list of translations for current object.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show simplified view of content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Locations (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relations (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ordering</source>
+        <translation type="unfinished">Třídění</translation>
+    </message>
+    <message>
+        <source>Show published ordering overview.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view/line</name>
@@ -5508,6 +6067,10 @@ Odstranit vybrané</translation>
     <message>
         <source>Unknown</source>
         <translation>Neznámý</translation>
+    </message>
+    <message>
+        <source>My item notifications (%notification_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5774,7 +6337,7 @@ Odstranit vybrané</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stát</translation>
     </message>
     <message>
         <source>Maintainers</source>
@@ -5961,6 +6524,10 @@ The packages will be lost forever.
 Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Remove</source>
+        <translation type="unfinished">Odstranit</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/pagelayout</name>
@@ -6007,10 +6574,6 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Design</source>
         <translation>Design</translation>
-    </message>
-    <message>
-        <source>My account</source>
-        <translation>Můj účet</translation>
     </message>
     <message>
         <source>Current user</source>
@@ -6148,6 +6711,48 @@ Note: The packages will not be uninstalled.</source>
         <source>[%classname] Click on the icon to display a context-sensitive menu.</source>
         <translation>[%classname] Klikněte na ikonu pro zobrazení kontextové nabídky.</translation>
     </message>
+    <message>
+        <source>Dashboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search in all content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search in &apos;%node&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Loading...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/pagelayout/path</name>
+    <message>
+        <source>You are here:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/pagelayout/rightmenu</name>
+    <message>
+        <source>Show / Hide rightmenu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide / Show rightmenu</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/content/menu</name>
@@ -6194,6 +6799,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Show content structure.</source>
         <translation>Zobrazit strukturu obsahu.</translation>
+    </message>
+    <message>
+        <source>Site structure</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6309,6 +6918,22 @@ Note: The packages will not be uninstalled.</source>
         <source>Enable &amp;quot;Back to edit&amp;quot; checkbox when editing content.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Edit profile</source>
+        <translation type="unfinished">Editovat profil uživatele</translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable &amp;quot;Tabs&amp;quot; by default while browsing content.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable &amp;quot;Tabs&amp;quot; by default while browsing content.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
@@ -6414,6 +7039,14 @@ Note: The packages will not be uninstalled.</source>
         <source>URL wildcards</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>States</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Link management</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/shop/menu</name>
@@ -6493,10 +7126,6 @@ Note: The packages will not be uninstalled.</source>
         <translation>Velká</translation>
     </message>
     <message>
-        <source>Manage permission settings.</source>
-        <translation>Spravovat nastavení oprávnění.</translation>
-    </message>
-    <message>
         <source>Roles and policies</source>
         <translation>Role a politiky</translation>
     </message>
@@ -6531,6 +7160,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Access control</source>
         <translation>Kontrola přístupu</translation>
+    </message>
+    <message>
+        <source>Unactivated users</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6721,6 +7354,10 @@ Note: The packages will not be uninstalled.</source>
         <source>PDF exports [%export_count]</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>PDF exports (%export_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/popupmenu</name>
@@ -6848,6 +7485,26 @@ Note: The packages will not be uninstalled.</source>
         <source>Choose siteaccess</source>
         <translation>Vybrat přístup ke stránkám</translation>
     </message>
+    <message>
+        <source>Create RSS/ATOM feed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove RSS/ATOM feed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sitemap for subtree</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation type="unfinished">Náhled</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/preview/article</name>
@@ -6900,6 +7557,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Your email address</source>
         <translation>Váš Email</translation>
+    </message>
+    <message>
+        <source>Your name</source>
+        <translation type="unfinished">Vaše jméno</translation>
     </message>
 </context>
 <context>
@@ -7025,6 +7686,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Use the drop-down menu to select the module that you want to grant access to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every function</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7221,6 +7886,18 @@ Note: The packages will not be uninstalled.</source>
         <source>Welcome to the policy wizard. This three-step wizard will help you set up a new policy. The policy will be added to the role that is currently being edited. The wizard can be aborted at any stage by using the &quot;Cancel&quot; button.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Properties</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodes (%node_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtrees (%subtree_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/role/edit</name>
@@ -7308,6 +7985,14 @@ Note: The packages will not be uninstalled.</source>
         <source>Create a new policy.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Save</source>
+        <translation type="unfinished">Uložit</translation>
+    </message>
+    <message>
+        <source>Save policy changes to this role</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/role/list</name>
@@ -7369,6 +8054,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Copy the &lt;%role_name&gt; role.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Roles (%role_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7440,6 +8129,14 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>The function limitations of this policy cannot be edited. This is either because the function does not support limitations or because the function was assigned without limitations when the policy was created.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nodes (%node_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Subtrees (%subtree_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7552,6 +8249,18 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Name</source>
         <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Policies (%policies_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path: &apos;/%path_string&apos;, Class identifier: &apos;%class_identifier&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users and groups using the &lt;%role_name&gt; role (%users_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7765,10 +8474,6 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7794,6 +8499,38 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Leave this field empty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>optional</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enclosure (media)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this drop-down to select the attribute that should be exported as the enclosure of the RSS export entry, enclosures are direct link to a media file, so use a media/image/file datatype .</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field data</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7909,7 +8646,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Atributy třídy</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only to distinguish the different imports from each other.</source>
@@ -8016,6 +8753,14 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Create a new RSS import.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS exports (%exports_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RSS imports (%imports_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8161,6 +8906,26 @@ Note: The packages will not be uninstalled.</source>
         <source>Navigation part</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Identifier can not be empty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier should consist of letters, numbers or &apos;_&apos; with letter prefix.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The identifier has been used in another section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Section edit error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/section/list</name>
@@ -8224,6 +8989,18 @@ Note: The packages will not be uninstalled.</source>
         <source>You are not allowed to assign the &lt;%section_name&gt; section.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Sections (%section_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Assign a subtree to the &lt;%section_name&gt; section.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/section/view</name>
@@ -8285,6 +9062,30 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>This section is not assigned to any objects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Roles containing limitations associated with this section (%number_of_roles)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Users and user groups with role limitations associated with this section (%number_of_roles)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Objects within this section (%number_of_objects)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign subtree</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Assign subtree of objects to this section</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8498,6 +9299,10 @@ Note: The packages will not be uninstalled.</source>
         <source>Please select an ini file from the drop-down below</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Values for each location setting are shown. The first values have lowest priority; the values toward the end have higher priority than the first ones.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup</name>
@@ -8692,6 +9497,10 @@ Note: The packages will not be uninstalled.</source>
         <source>This operation will regenerate all the static content caches that are configured. This action can take  some time depending on the specifications of the server and the number of locations that are configured to be statically cached. If you encounter time-out problems, use the &amp;quot;bin/php/makestaticcache.php&amp;quot; shell script.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Categories</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/setup/datatypecode</name>
@@ -8736,6 +9545,26 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Click this button to regenerate the autoload arrays used by the system for extensions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problems detected during autoload generation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Available extensions (%extension_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activate or deactivate extension. Use the &quot;Update&quot; button to apply the changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8917,11 +9746,6 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished">Verze</translation>
     </message>
     <message>
-        <source>SVN revision</source>
-        <comment>eZ Publish version</comment>
-        <translation type="unfinished">SVN revize</translation>
-    </message>
-    <message>
         <source>Extensions</source>
         <comment>eZ Publish extensions</comment>
         <translation type="unfinished">Rozšíření</translation>
@@ -8965,6 +9789,15 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Web server (hardware)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Details</source>
+        <comment>Detailed PHP information</comment>
+        <translation type="unfinished">Detaily</translation>
+    </message>
+    <message>
+        <source>PHP autoload functions</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9302,6 +10135,30 @@ Note: The packages will not be uninstalled.</source>
         <source>Email</source>
         <translation type="unfinished">Email</translation>
     </message>
+    <message>
+        <source>Not all timed out sessions were successfully removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The operation was cut short in order to avoid execution timeout.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your alternatives are to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Repeat the operation several times to complete it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear the timed out session data from command-line using: &amp;gt;php bin/php/ezsessiongc.php</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install the session cleanup cronjob &apos;session_gc.php&apos; and run on nightly intervals (see cronjob.ini or doc for how)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/accounthandlers/html/ez</name>
@@ -9315,11 +10172,11 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Firma</translation>
     </message>
     <message>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ulice a číslo</translation>
     </message>
     <message>
         <source>Zip code</source>
@@ -9331,7 +10188,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stát</translation>
     </message>
     <message>
         <source>Email</source>
@@ -9340,6 +10197,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Country/region</source>
         <translation type="unfinished">Země/oblast</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9399,6 +10260,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Unarchive selected orders.</source>
         <translation>Zvolené vybrat zpět z archivu do aktuálních.</translation>
+    </message>
+    <message>
+        <source>Archived orders (%count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9810,6 +10675,10 @@ Note: The packages will not be uninstalled.</source>
         <source>Customers [%customers]</source>
         <translation>Zákazníci [%customers]</translation>
     </message>
+    <message>
+        <source>Customers (%customers)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/customerorderview</name>
@@ -9852,6 +10721,14 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Status</source>
         <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Orders (%order_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Purchased products (%product_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9899,6 +10776,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Create a new discount group.</source>
         <translation>Vytvořit novou diskontní skupinu.</translation>
+    </message>
+    <message>
+        <source>Discount groups (%discount_groups)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10016,6 +10897,14 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Add users and/or user groups to the &lt;%discount_group_name&gt; discount group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discount rules (%rule_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customers (users and user groups) (%customer_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10274,6 +11163,10 @@ Note: The packages will not be uninstalled.</source>
         <source>( removed )</source>
         <translation>( odstraněno )</translation>
     </message>
+    <message>
+        <source>Orders (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/orderstatistics</name>
@@ -10327,6 +11220,10 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Update the list using the values specified by the menus to the left.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Product statistics (%count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10416,6 +11313,10 @@ Note: The packages will not be uninstalled.</source>
         <source>This is the person who modified the status of the order. Click to view the user information.</source>
         <translation>Toto je uživatel, který změnil stav objednávky. Klikněte pro zobrazení informací o uživateli.</translation>
     </message>
+    <message>
+        <source>Status history (%status_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/preferredcurrency</name>
@@ -10473,6 +11374,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Click this button to store changes if you have modified any of the fields above.</source>
         <translation type="unfinished">Klikněte sem pro uložení změn v případě, byly změněny jakákoliv políčka výše.</translation>
+    </message>
+    <message>
+        <source>Product categories (%categories)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10745,6 +11650,10 @@ Note: The packages will not be uninstalled.</source>
         <source>Order status [%order_status]</source>
         <translation>Stav objednávek [%order_status]</translation>
     </message>
+    <message>
+        <source>Order status (%order_status)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/userregister</name>
@@ -10879,6 +11788,10 @@ Note: The packages will not be uninstalled.</source>
         <source>Country/region</source>
         <translation type="unfinished">Země/oblast</translation>
     </message>
+    <message>
+        <source>VAT charging rules (%rules)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/shop/vattype</name>
@@ -10933,6 +11846,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Input did not validate</source>
         <translation type="unfinished">Zadaná data nejsou platná</translation>
+    </message>
+    <message>
+        <source>VAT types (%vat_types)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11005,6 +11922,268 @@ Note: The packages will not be uninstalled.</source>
         <source>Click this button to store changes if you have modified quantity and/or option values.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>My wish list (%item_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state/edit</name>
+    <message>
+        <source>The content object state was successfully stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The content object state could not be stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Required data is either missing or is invalid</source>
+        <translation type="unfinished">Požadovaná data buď chybí nebo jsou nesprávná</translation>
+    </message>
+    <message>
+        <source>Edit content object state &quot;%state_name&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New content object state</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save changes to this state.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Zrušit</translation>
+    </message>
+    <message>
+        <source>Cancel saving any changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state/group</name>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <source>Object states in this group [%state_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object count</source>
+        <translation type="unfinished">Počet objektů</translation>
+    </message>
+    <message>
+        <source>Order</source>
+        <translation type="unfinished">Objednávka</translation>
+    </message>
+    <message>
+        <source>Select content object state group for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected states.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new</source>
+        <translation type="unfinished">Vytvořit nový</translation>
+    </message>
+    <message>
+        <source>Create a new state.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update ordering</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update the order of the content object states in this group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Object states in this group (%state_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state/group_edit</name>
+    <message>
+        <source>Edit content object state group &quot;%group_name&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New content object state group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save changes to this state group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Zrušit</translation>
+    </message>
+    <message>
+        <source>Cancel saving any changes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation type="unfinished">Vytvořit</translation>
+    </message>
+    <message>
+        <source>Create this state group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel creating this state group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state/groups</name>
+    <message>
+        <source>The content object state group was successfully stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The content object state group could not be stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Required data is either missing or is invalid</source>
+        <translation type="unfinished">Požadovaná data buď chybí nebo jsou nesprávná</translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Select content object state group for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected state groups.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create new</source>
+        <translation type="unfinished">Vytvořit nový</translation>
+    </message>
+    <message>
+        <source>Create a new state group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state/view</name>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/state_groups</name>
+    <message>
+        <source>Content object state groups (%group_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content object state groups [%group_count]</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/trigger/list</name>
@@ -11043,6 +12222,10 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>Click this button to store changes if you have modified any of the fields above.</source>
         <translation type="unfinished">Klikněte sem pro uložení změn v případě, byly změněny jakákoliv políčka výše.</translation>
+    </message>
+    <message>
+        <source>Workflow triggers (%trigger_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11158,6 +12341,18 @@ Note: The packages will not be uninstalled.</source>
         <source>The requested list is empty.</source>
         <translation>Požadovaný seznam je prázdný.</translation>
     </message>
+    <message>
+        <source>Valid links (%url_list_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid links (%url_list_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All links (%url_list_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/url/view</name>
@@ -11261,6 +12456,10 @@ Note: The packages will not be uninstalled.</source>
         <source>View the contents of version #%version_number.</source>
         <translation>Zobrazit obsah veze #%version_number.</translation>
     </message>
+    <message>
+        <source>Objects using URL #%url_id (%url_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/user</name>
@@ -11271,14 +12470,6 @@ Note: The packages will not be uninstalled.</source>
     <message>
         <source>User registered</source>
         <translation>Uživatel registrován</translation>
-    </message>
-    <message>
-        <source>Your account is now activated.</source>
-        <translation>Váš účet byl právě aktivován.</translation>
-    </message>
-    <message>
-        <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation>Lituji, ale klíč není platný. Uživatelský účet nebude aktivován.</translation>
     </message>
     <message>
         <source>Your account was successfully created.</source>
@@ -11293,6 +12484,65 @@ Note: The packages will not be uninstalled.</source>
 email address. Follow the instructions in that mail to activate
 your account.</source>
         <translation>Váš účet byl úspěšně vytvořen. Na zadanou adresu byl odeslán e-mail s odkazem, který musíte použít pro aktivaci vašeho účtu.</translation>
+    </message>
+    <message>
+        <source>Unactivated users (%users_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Toggle selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Registration date</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>E-mail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activate selected users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Activate selected users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected users.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/user/activations</name>
+    <message>
+        <source>The following users have been successfully activated:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some users have not been activated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The following unactivated users have been successfully removed:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some users have not been removed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11807,6 +13057,10 @@ your account.</source>
         <source>There are no overrides for the &lt;%template_name&gt; template.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Overrides for &lt;%template_name&gt; template in &lt;%current_siteaccess&gt; siteaccess (%override_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/visual/toolbar</name>
@@ -11948,6 +13202,14 @@ your account.</source>
     <message>
         <source>The following information is either missing or invalid</source>
         <translation type="unfinished">Následující informace je buď chybná nebo není k dispozici</translation>
+    </message>
+    <message>
+        <source>Error : Could not load workflow event &quot;%eventtype&quot; (event type not available)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hint : This can happen when a workflow extension has been disabled</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12092,6 +13354,10 @@ your account.</source>
         <source>There are no payment gateway extensions installed.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Class/attribute combinations (%count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/workflow/groupedit</name>
@@ -12158,6 +13424,10 @@ your account.</source>
         <source>Create a new workflow group.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Workflow groups (%groups_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/workflow/proccesslist</name>
@@ -12198,6 +13468,14 @@ your account.</source>
     </message>
     <message>
         <source>Current event</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Workflow processes (%trigger_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(%process_count)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12270,6 +13548,14 @@ your account.</source>
     <message>
         <source>Additional information</source>
         <translation type="unfinished">Další informace</translation>
+    </message>
+    <message>
+        <source>Member of groups (%group_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Events (%event_count)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12348,6 +13634,122 @@ your account.</source>
     </message>
     <message>
         <source>Create a new workflow.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Workflows (%workflow_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin2/ajaxupload</name>
+    <message>
+        <source>&lt;em&gt;%file&lt;/em&gt; has successfully been uploaded.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin2/ajaxuploader</name>
+    <message>
+        <source>Go to the parent level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation type="unfinished">Sekce</translation>
+    </message>
+    <message>
+        <source>prev</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step 2/3: Choose a location for the new &apos;%class&apos; object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose a location for the &apos;%class&apos; object that is going to be created from it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Choose this location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step 3/3: Preview of &apos;%name&apos; (%class)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Step 1/3: Upload a file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation type="unfinished">Soubor</translation>
+    </message>
+    <message>
+        <source>Required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The name will be autogenerated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload the file</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin2/content/datatype</name>
+    <message>
+        <source>Upload a file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload a file to create a new object and add it to the relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please choose a location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Some required fields are empty.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to parse the JSON response.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upload a file and add the resulting object in the relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/admin2/user/activations</name>
+    <message>
+        <source>There are no unactivated users</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -12920,6 +14322,31 @@ your account.</source>
     <message>
         <source>Item total ex. VAT</source>
         <translation>Položka bez DPH</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/link</name>
+    <message>
+        <source>Printable version</source>
+        <translation type="unfinished">Formátovat pro tisk</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezwebin/node/removeobject</name>
+    <message>
+        <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/plain/layout</name>
+    <message>
+        <source>Advanced search</source>
+        <translation type="unfinished">Pokročilé vyhledávání</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">Hledat</translation>
     </message>
 </context>
 <context>
@@ -13578,6 +15005,34 @@ your account.</source>
         <source>Ini File: </source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Use seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Silverlight</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Html5 Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Html5 Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tag preset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>second(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/class/datatype </name>
@@ -13748,6 +15203,61 @@ your account.</source>
         <source>Discard changes</source>
         <translation type="unfinished">Opustit změny</translation>
     </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <source>Use this field to set the informal description of the class. The description field can contain whitespaces and special characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/class/edit_locked</name>
+    <message>
+        <source>Class locked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This class has pending modifications defered to cronjob and thus it cannot be edited.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wait until the script is finished. You might see the status in the %urlstart script monitor%urlend&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To force the modification of the class you may run the following command</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &lt;%class_name&gt; [Class]</source>
+        <translation type="unfinished">Editace &lt;%class_name&gt; [Třída]</translation>
+    </message>
+    <message>
+        <source>Class</source>
+        <translation type="unfinished">Třída</translation>
+    </message>
+    <message>
+        <source>Last modifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last modified on</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The class will be available for editing after the script has been run by the cronjob.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Retry</source>
+        <translation type="unfinished">Zkusit znovu</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Zrušit</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/class/list</name>
@@ -13909,6 +15419,10 @@ your account.</source>
     <message>
         <source>Siteaccess</source>
         <translation type="unfinished">Přístup k stránkám (siteaccess)</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
     </message>
 </context>
 <context>
@@ -14164,6 +15678,18 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>Country/region</source>
         <translation>Země/oblast</translation>
+    </message>
+    <message>
+        <source>Your content is being published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing finished</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your content is pending an external action</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -14735,10 +16261,6 @@ If you want to send comments to the approver or view the status use the URL belo
         <translation>Updavit nastavení uživatelského účtu</translation>
     </message>
     <message>
-        <source>Add object</source>
-        <translation>Přidat objekt</translation>
-    </message>
-    <message>
         <source>Invert selection.</source>
         <translation>Obrátit výběr.</translation>
     </message>
@@ -14970,80 +16492,93 @@ If you want to send comments to the approver or view the status use the URL belo
         <source>Option group name</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>design/standard/content/diff</name>
     <message>
-        <source>Versions for &lt;%object_name&gt; [%version_count]</source>
-        <translation>Verze pro &lt;%object_name&gt; [%version_count]</translation>
+        <source>Second</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Version</source>
-        <translation>Verze</translation>
+        <source>Silverlight</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Stav</translation>
+        <source>Html5 Video</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Translations</source>
-        <translation>Překlady</translation>
+        <source>Html5 Audio</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Creator</source>
-        <translation>Vytvořil</translation>
+        <source>There are no related object.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Modified</source>
-        <translation>Změněno</translation>
+        <source>Add an object in the relation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Draft</source>
-        <translation>Koncept</translation>
+        <source>Add an existing object</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Published</source>
-        <translation>Vydáno</translation>
+        <source>Browse to add an existing object in this relation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Pending</source>
-        <translation>Čeká</translation>
+        <source>Find object</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Archived</source>
-        <translation>Archivováno</translation>
+        <source>The related objects will be edited in the same language as this object. If such translations do not exist they will be created, based on the source language of your choice.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Rejected</source>
-        <translation>Odmítnuto</translation>
+        <source>Translation base</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Untouched draft</source>
-        <translation>Neupravovaný koncept</translation>
+        <source>This object is already translated, the existing translation will be used.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show differences</source>
-        <translation>Zobrazit rozdíly</translation>
+        <source>This object is not translated, please select the language the new translation will be based on.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Differences between versions %oldVersion and %newVersion</source>
-        <translation>Změny mezi verzí %oldVersion a  %newVersion</translation>
+        <source>Objects in the relation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Old version</source>
-        <translation>Stará verze</translation>
+        <source>Remove selected elements from the relation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Inline changes</source>
-        <translation>Změny vloženě</translation>
+        <source>Add objects in the relation</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Block changes</source>
-        <translation>Změny v blocích</translation>
+        <source>Add existing objects</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version</source>
-        <translation>Nová verze</translation>
+        <source>Browse to add existing objects in this relation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Find objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm email</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 video.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your browser does not support html5 audio.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -15520,39 +17055,39 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Version is not a draft</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tato verze není koncept</translation>
     </message>
     <message>
         <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze %1 už není k dispozici pro úpravy. Je možné upravovat pouze koncepty.</translation>
     </message>
     <message>
         <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pro úpravy této verze vytvořte nejprve její kopii (a tu pak upravte podle potřeb nebo odešlete k publikaci v původní podobě).</translation>
     </message>
     <message>
         <source>Version is not yours</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nejste vlastníkem této verze</translation>
     </message>
     <message>
         <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze %1 nebyla vytvořena vámi. Můžete upravovat pouze vámi vlastněné verze.</translation>
     </message>
     <message>
         <source>Modified translation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Změněný překlad</translation>
     </message>
     <message>
         <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Verze #%version_number nemůže být odstraněna protože je buď právě publikovanou verzí objektu, nebo nemáte oprávnění k jejímu odstranění.</translation>
     </message>
     <message>
         <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nemůžete vytvářet kopie verzí protože nemáte oprávnění k úpravám objektu.</translation>
     </message>
     <message>
         <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nemůžete upravit obsah verze #%version_number protože buď to není koncept, nebo nemáte oprávnění k úpravám objektu.</translation>
     </message>
 </context>
 <context>
@@ -15934,80 +17469,6 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>Choose a file from your locale machine then click the &quot;Upload&quot; button. An object will be created according to file type and placed in your chosen location.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/version</name>
-    <message>
-        <source>Versions for: %1</source>
-        <translation>Dostupné verze pro: %1</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editovat</translation>
-    </message>
-    <message>
-        <source>Copy and edit</source>
-        <translation>Zkopírovat a editovat</translation>
-    </message>
-    <message>
-        <source>Unable to create new version</source>
-        <translation>Nelze vytvořit novou verzi</translation>
-    </message>
-    <message>
-        <source>Version history limit has been exceeded and no archived version can be removed by the system.</source>
-        <translation>Bylo dosaženo maximálního počtu archivovaných verzí a systém nemůže sám archivované verze smazat.</translation>
-    </message>
-    <message>
-        <source>You can change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Nastavení archivování verzí můžete změnit v content.ini, odstranit koncepty nebo provést editaci existujících konceptů. </translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing any more, only drafts can be edited.</source>
-        <translation>Verze %1 již není dostupná pro úpravy, upravovat lze pouze koncepty.</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Verze</translation>
-    </message>
-    <message>
-        <source>Status</source>
-        <translation>Stav</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation>Překlady</translation>
-    </message>
-    <message>
-        <source>Creator</source>
-        <translation>Tvůrce</translation>
-    </message>
-    <message>
-        <source>Modified</source>
-        <translation>Změněno</translation>
-    </message>
-    <message>
-        <source>Version is not a draft</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>To edit this version, first create a copy of it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Version is not yours</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you. You can only edit your own drafts.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/versions</name>
-    <message>
-        <source>This object does not have any versions.</source>
-        <translation type="unfinished">Tento objekt nemá žádné verze.</translation>
     </message>
 </context>
 <context>
@@ -16743,17 +18204,6 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
 </context>
 <context>
-    <name>design/standard/form</name>
-    <message>
-        <source>Thank you for your feedback</source>
-        <translation>Děkujeme</translation>
-    </message>
-    <message>
-        <source>Your information was successfully received.</source>
-        <translation>Data byla úspěšně předána.</translation>
-    </message>
-</context>
-<context>
     <name>design/standard/gui</name>
     <message>
         <source>Delete</source>
@@ -16777,10 +18227,6 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>Logout</source>
         <translation>Logout</translation>
-    </message>
-    <message>
-        <source>Printable version</source>
-        <translation>Formátovat pro tisk</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -16875,6 +18321,26 @@ Pokud tak učiníte, budou odebráni také všichni potomci.</translation>
         <source>Cancel removal</source>
         <translation>Zrušite odebírání</translation>
     </message>
+    <message>
+        <source>Please wait while your content is being published</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your content has been published successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View the published item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing has been deferred to crontab and will be published when the operation resumes. The object is also listed in your dashboard under pending items.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View your pending content</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/menuconfig</name>
@@ -16951,10 +18417,6 @@ Pokud tak učiníte, budou odebráni také všichni potomci.</translation>
     <message>
         <source>Removing this assignment will also remove its %1 children.</source>
         <translation>Odstranění přiřazení také odstraní %1 jejích dětí.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation>Opravdu chcete odstranit tyto prvky?</translation>
     </message>
     <message>
         <source>%nodename and its %childcount children. %additionalwarning</source>
@@ -17149,10 +18611,6 @@ Pokud tak učiníte, budou odebráni také všichni potomci.</translation>
     <message>
         <source>Store</source>
         <translation>Uložit</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Zrušit</translation>
     </message>
     <message>
         <source>&quot;%name&quot; was updated</source>
@@ -17452,7 +18910,7 @@ Prvek si můžete prohlédnout pomocí odkazu níže.</translation>
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stát</translation>
     </message>
     <message>
         <source>Maintainers</source>
@@ -17585,10 +19043,6 @@ If unsure choose the siteaccess which reflects the user part of your site, i.e. 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Please select an extension to be exported.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Use this choice for all items</source>
         <translation type="unfinished"></translation>
     </message>
@@ -17674,6 +19128,14 @@ You can also remove the package without uninstalling it from the package list.</
     </message>
     <message>
         <source>Regarding eZ Publish package &apos;%packagename&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Please select the extensions to be exported.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use content object modification and publication dates from the package.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -18376,6 +19838,22 @@ menu on the top.</source>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>optional</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enclosure (media)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -19280,11 +20758,6 @@ Operátor %operatorname můžete použít pro ...</translation>
         <translation type="unfinished">Verze</translation>
     </message>
     <message>
-        <source>SVN revision</source>
-        <comment>eZ Publish version</comment>
-        <translation type="unfinished">SVN revize</translation>
-    </message>
-    <message>
         <source>Extensions</source>
         <comment>eZ Publish extensions</comment>
         <translation type="unfinished">Rozšíření</translation>
@@ -19464,6 +20937,10 @@ The default code was made from the basic parameters you chose.</source>
     </message>
     <message>
         <source>Click this button to regenerate the autoload arrays used by the system for extensions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problems detected during autoload generation:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -20546,10 +22023,6 @@ It is possible to change these settings at a later time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The &apos;digest&apos; procedure is not available in your database, you cannot run eZ Publish without this. Visit the FAQ for more information.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Package language options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -20825,6 +22298,18 @@ This functionality is also available at a later time from the Administration Int
         <comment>eZ Publish link</comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The &apos;digest&apos; function is not available in your database, you cannot run eZ Publish without this. See the documentation for more information.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MySQL support was detected on your system. Please choose the database driver you would like to use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PostgreSQL support was detected on your system. Please choose the database driver you would like to use.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/operatorcode</name>
@@ -20951,6 +22436,34 @@ This functionality is also available at a later time from the Administration Int
         <source>Email</source>
         <translation type="unfinished">Email</translation>
     </message>
+    <message>
+        <source>Not all timed out sessions were successfully removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The operation was cut short in order to avoid execution timeout.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your alternatives are to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Repeat the operation several times to complete it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Clear the timed out session data from command-line using: &amp;gt;php bin/php/ezsessiongc.php</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install the session cleanup cronjob &apos;session_gc.php&apos; and run on nightly intervals (see cronjob.ini or doc for how)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your current session handler does not support session administration.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/setup/tests</name>
@@ -21017,10 +22530,6 @@ This functionality is also available at a later time from the Administration Int
     <message>
         <source>Missing ImageMagick program</source>
         <translation>Chybí program ImageMagic</translation>
-    </message>
-    <message>
-        <source>If you known where the program is installed (the executable is called</source>
-        <translation>Pokud máte tento program nainstalovaný (soubor se jmenuje</translation>
     </message>
     <message>
         <source>or</source>
@@ -21284,10 +22793,6 @@ This is a security problem and should be changed to another global temporary dir
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>, but the latest released PHP 4.4.x version is highly recommended.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Missed some directories</source>
         <translation type="unfinished"></translation>
     </message>
@@ -21503,6 +23008,74 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>If you want to keep UTC as your time zone, check &lt;strong&gt;Ignore this test&lt;/strong&gt; below to proceed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing cURL extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is recommended to enable the PHP cURL extension, otherwise some features requiring a proxy or SSL will not work.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To enable the PHP cURL functions you need to compile PHP with support for it. Configure PHP with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More information on this subject is available at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong eZ Components version detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing eZ Components dependancy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The minimum required eZ Components version is</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download instructions for both regular download and PEAR are provided at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing iconv extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The iconv extension is not available to eZ Publish. Without it eZ Publish will not work.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In most cases, the iconv extension is enabled by default because it is included in the PHP core. However, some Linux distributions have PHP without compiled-in support for iconv. Instead, they provide iconv as a shared module in a separate RPM package called &quot;php-iconv&quot; (or &quot;php5-iconv&quot;).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you know where the program is installed (the executable is called</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>, but the latest released stable PHP version is always recommended.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP does not register environment variables</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PHP is currently not configured to register environment variables in the global variable $_ENV.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Since some extensions might use $_ENV it is recommended to fix it unless you have full control over all extensions you use!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -21914,11 +23487,11 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Firma</translation>
     </message>
     <message>
         <source>Street</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ulice a číslo</translation>
     </message>
     <message>
         <source>Zip</source>
@@ -21930,7 +23503,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>State</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stát</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -22062,11 +23635,11 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Total price ex. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Celkem cena bez DPH</translation>
     </message>
     <message>
         <source>Total price inc. VAT</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Celkem cena s DPH</translation>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
@@ -22342,6 +23915,63 @@ To do this you need to change the %chown commands under Alternative shell comman
     <message>
         <source>Fold/Unfold</source>
         <translation>Sbalit/Rozbalit</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/state/edit</name>
+    <message>
+        <source>Identifier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/state/group</name>
+    <message>
+        <source>ID</source>
+        <translation type="unfinished">ID</translation>
+    </message>
+    <message>
+        <source>Identifier</source>
+        <translation type="unfinished">Identifikátor</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/state/group_edit</name>
+    <message>
+        <source>Identifier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Description:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -22842,12 +24472,21 @@ your account.</source>
         <source>Please note that your browser must use and support cookies to register a new user.</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>design/standard/user/</name>
+    <message>
+        <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>The new password must be at least %1 characters long. Please retype your new password.</source>
-        <translation>Nové heslo musí být alespoň %1 znaků dlouhé. Prosím, zadejte znovu vaše heslo.</translation>
+        <translation type="unfinished">Nové heslo musí být alespoň %1 znaků dlouhé. Prosím, zadejte znovu vaše heslo.</translation>
+    </message>
+    <message>
+        <source>Your browser does not seem to support cookies, to register a new user, cookies need to be supported and enabled!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Try again</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -22952,6 +24591,14 @@ your account.</source>
         <comment>Login name</comment>
         <translation>Uživatelské jméno</translation>
     </message>
+    <message>
+        <source>Your registration has been approved. You can login with your account %username.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the following URL to login:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/visual/menuconfig</name>
@@ -22973,7 +24620,7 @@ your account.</source>
     </message>
     <message>
         <source>Click here to store the changes if you have modified the menu settings above.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Klikněte zde pro uložení změn pokud jste změnili nastevení menu nahoře.</translation>
     </message>
     <message>
         <source>Siteaccess</source>
@@ -23611,7 +25258,7 @@ your account.</source>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Atributy třídy</translation>
     </message>
 </context>
 <context>
@@ -23663,6 +25310,182 @@ your account.</source>
     <message>
         <source>Language</source>
         <translation>Jazyk</translation>
+    </message>
+</context>
+<context>
+    <name>design/starndard/node</name>
+    <message>
+        <source>Are you sure you want to remove these items?</source>
+        <translation type="unfinished">Opravdu chcete odstranit tyto prvky?</translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauth</name>
+    <message>
+        <source>Application authorization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The application %application_name% has requested access to this website on your behalf.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauth/authorize</name>
+    <message>
+        <source>Authorize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation type="unfinished">Neschválit</translation>
+    </message>
+</context>
+<context>
+    <name>extension/oauthadmin</name>
+    <message>
+        <source>New REST application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>oAuth admin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm removal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Application &lt;%application_name&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation type="unfinished">Naposledy změněno </translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation type="unfinished">Jméno</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation type="unfinished">Popis</translation>
+    </message>
+    <message>
+        <source>Client identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Client secret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Endpoint URI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit this application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation type="unfinished">Smazat</translation>
+    </message>
+    <message>
+        <source>Delete this application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove this application?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Are you sure you want to remove these applications?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm</source>
+        <translation type="unfinished">Potvrdit</translation>
+    </message>
+    <message>
+        <source>Confirm removal of these applications.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Zrušit</translation>
+    </message>
+    <message>
+        <source>Edit application &lt;%application_name&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the application name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the informal application description.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use this field to set the application endpoint URI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <source>REST applications (%applications_count)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>List of applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invert selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="unfinished">Změnil</translation>
+    </message>
+    <message>
+        <source>Modified</source>
+        <translation type="unfinished">Změněno</translation>
+    </message>
+    <message>
+        <source>Select application for removal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit the &lt;%application_name&gt; application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove the selected applications.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new application.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation type="unfinished">Zpět</translation>
     </message>
 </context>
 <context>
@@ -23727,6 +25550,26 @@ your account.</source>
         <source>Content tree menu (browser cache)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Text to image cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State limitations cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Design base cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Active extensions cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TS Translation cache</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/class</name>
@@ -23741,14 +25584,6 @@ your account.</source>
     <message>
         <source>Remove class</source>
         <translation>Odstranit třídu</translation>
-    </message>
-    <message>
-        <source>Class edit</source>
-        <translation>Editovat třídu</translation>
-    </message>
-    <message>
-        <source>Classes</source>
-        <translation>Třídy</translation>
     </message>
     <message>
         <source>Class list</source>
@@ -23812,6 +25647,14 @@ your account.</source>
     </message>
     <message>
         <source>Please contact your eZ Publish administrator to solve this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Class groups</source>
+        <translation type="unfinished">Skupiny tříd</translation>
+    </message>
+    <message>
+        <source>Remove classes</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -23925,6 +25768,22 @@ your account.</source>
     </message>
     <message>
         <source>Canceled whole workflow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace existing object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skip object</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keep existing and create a new one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update existing object</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -24421,6 +26280,24 @@ your account.</source>
         <source>You cannot remove the last class holding user accounts.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Missing email input.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Input required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The password cannot be empty.</source>
+        <comment>eZUserType</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The emails do not match.</source>
+        <comment>eZUserType</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/classes/datatypes/ezbinaryfile</name>
@@ -24509,6 +26386,10 @@ your account.</source>
         <source>Object %1 can not be embeded to itself.</source>
         <translation type="unfinished">Objekt %1 nemůže být vložen sám do sebe.</translation>
     </message>
+    <message>
+        <source>%count invalid character(s) have been found and replaced by a space</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/collaboration</name>
@@ -24566,10 +26447,6 @@ your account.</source>
     <message>
         <source>Trash</source>
         <translation>Koš</translation>
-    </message>
-    <message>
-        <source>Versions</source>
-        <translation>Verze</translation>
     </message>
     <message>
         <source>Tip from %1: %2</source>
@@ -24640,10 +26517,6 @@ your account.</source>
         <translation>&quot;$contentObjectName&quot;: Podprvky, které jsou používány jinými objekty </translation>
     </message>
     <message>
-        <source>Differences</source>
-        <translation>Rozdíly</translation>
-    </message>
-    <message>
         <source>Edit</source>
         <translation>Upravit</translation>
     </message>
@@ -24711,13 +26584,37 @@ your account.</source>
         <source>You do not have enough rights to access the requested node</source>
         <translation>Nemáte dostatečná oprávnění pro přístup k požadovanému uzlu</translation>
     </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Chyba</translation>
+    </message>
+    <message>
+        <source>The request sent to the server was too big to be accepted. This probably means that you uploaded a file which was too big. The maximum allowed request size is %max_size_string.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dashboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publishing queue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You have already sent a tipafriend mail to this receiver regarding &apos;%1&apos; content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>User</source>
+        <translation type="unfinished">Uživatel</translation>
+    </message>
+    <message>
+        <source>Unactivated users</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/copysubtree</name>
-    <message>
-        <source>Cannot publish object (ID = %1).</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <source>Fatal error: cannot get subtree main node (ID = %1).</source>
         <translation type="unfinished"></translation>
@@ -24772,6 +26669,10 @@ your account.</source>
     </message>
     <message>
         <source>Successfully DONE.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cannot publish object (Name: %1, ID: %2).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -24873,6 +26774,14 @@ your account.</source>
         <source>The size of the uploaded file exceeds the limit set for this site: %1 bytes.</source>
         <translation>Velikost nahraného souboru přesahuje limit nastavený pro tyto stránky: %1 bytů.</translation>
     </message>
+    <message>
+        <source>The uploaded file size is above the maximum limit.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A system error occured while writing the uploaded file.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/content/urlalias_global</name>
@@ -24949,13 +26858,6 @@ your account.</source>
     </message>
 </context>
 <context>
-    <name>kernel/form</name>
-    <message>
-        <source>Form processing</source>
-        <translation>Zpracovávání formuláře</translation>
-    </message>
-</context>
-<context>
     <name>kernel/infocollector</name>
     <message>
         <source>Collected information</source>
@@ -25005,6 +26907,25 @@ your account.</source>
     <message>
         <source>Notification settings</source>
         <translation>Nastavení upozorňování</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/oauthadmin</name>
+    <message>
+        <source>oAuth admin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit REST application</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Registered REST applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REST application: %application_name%</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25218,19 +27139,7 @@ your account.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Select an extension to be exported</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Extension export</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Extension:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You must select an extension</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -25317,6 +27226,30 @@ your account.</source>
         <source>Remove object and its sub-item(s)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Extensions to include</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Extension list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You must select at least one extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Package contains an invalid extension name: %extensionname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Advanced options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The package name %packagename is invalid, cannot import the package</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/pdf</name>
@@ -25334,13 +27267,6 @@ your account.</source>
     <message>
         <source>New PDF Export</source>
         <translation>Nový export PDF</translation>
-    </message>
-</context>
-<context>
-    <name>kernel/reference</name>
-    <message>
-        <source>Reference documentation</source>
-        <translation>Referenční dokumentace</translation>
     </message>
 </context>
 <context>
@@ -25414,6 +27340,10 @@ your account.</source>
         <source>Invalid selection for description class %1 does not have attribute &quot;%2&quot;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Invalid selection for category class %1 does not have attribute &quot;%2&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/search</name>
@@ -25425,16 +27355,8 @@ your account.</source>
 <context>
     <name>kernel/section</name>
     <message>
-        <source>Edit Section</source>
-        <translation>Editovat sekci</translation>
-    </message>
-    <message>
         <source>Sections</source>
         <translation>Sekce</translation>
-    </message>
-    <message>
-        <source>View section</source>
-        <translation>Zobrazit sekci</translation>
     </message>
     <message>
         <source>New section</source>
@@ -25694,6 +27616,14 @@ your account.</source>
         <source>Wishlist</source>
         <translation>Seznam přání</translation>
     </message>
+    <message>
+        <source>&apos;%value&apos; is not a valid custom rate value (positive number expected)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&apos;%value&apos; is not a valid rate_factor value (positive number expected)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/shop/classes/ezcurrencydata</name>
@@ -25794,6 +27724,80 @@ your account.</source>
     </message>
 </context>
 <context>
+    <name>kernel/state</name>
+    <message>
+        <source>State</source>
+        <translation type="unfinished">Stát</translation>
+    </message>
+    <message>
+        <source>Assign</source>
+        <translation type="unfinished">Přiřadit</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Groups</source>
+        <translation type="unfinished">Skupiny</translation>
+    </message>
+    <message>
+        <source>New group</source>
+        <translation type="unfinished">Nová skupina</translation>
+    </message>
+    <message>
+        <source>Group edit</source>
+        <translation type="unfinished">Upravit skupinu</translation>
+    </message>
+</context>
+<context>
+    <name>kernel/state/edit</name>
+    <message>
+        <source>Identifier: input required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier: invalid, it can only consist of characters in the range a-z, 0-9 and underscore.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier: invalid, maximum %max characters allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier: a content object state group with this identifier already exists, please give another identifier</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%language_name: this language is the default but neither name or description were provided for this language</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations: you need to add at least one localization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations: there are multiple localizations but you did not specify which is the default one</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identifier: identifiers starting with &quot;ez&quot; are reserved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name in %language_name is too long. Maximum 45 characters allowed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name in %language_name: input required</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>kernel/trigger</name>
     <message>
         <source>Trigger</source>
@@ -25861,6 +27865,14 @@ your account.</source>
         <source>Success</source>
         <translation>Úspěch</translation>
     </message>
+    <message>
+        <source>oAuth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>authorization</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>kernel/user/register</name>
@@ -25871,6 +27883,10 @@ your account.</source>
     <message>
         <source>New user registered</source>
         <translation>Nový uživatel zaregistrován </translation>
+    </message>
+    <message>
+        <source>User registration approved</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25960,6 +27976,10 @@ your account.</source>
     <message>
         <source>Payment Gateway</source>
         <translation>Platební brána</translation>
+    </message>
+    <message>
+        <source>Finish User Registration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

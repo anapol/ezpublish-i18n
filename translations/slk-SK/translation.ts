@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.0" language="sk_SK">
 <context>
     <name>contentstructuremenu/show_content_structure</name>
     <message>
@@ -27805,7 +27805,7 @@ your account.</source>
     </message>
     <message>
         <source>List</source>
-        <translation>Seznam</translation>
+        <translation>Zoznam</translation>
     </message>
 </context>
 <context>
@@ -27816,22 +27816,22 @@ your account.</source>
     </message>
     <message>
         <source>List</source>
-        <translation>Seznam</translation>
+        <translation>Zoznam</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Pohled</translation>
+        <translation>Zobrazenie</translation>
     </message>
     <message>
         <source>URL edit</source>
-        <translation>Editovat URL</translation>
+        <translation>Úprava URL</translation>
     </message>
 </context>
 <context>
     <name>kernel/user</name>
     <message>
         <source>User</source>
-        <translation>Uživatel</translation>
+        <translation>Užívateľ</translation>
     </message>
     <message>
         <source>Login</source>
@@ -27839,31 +27839,31 @@ your account.</source>
     </message>
     <message>
         <source>Change password</source>
-        <translation>Změnit heslo</translation>
+        <translation>Zmena hesla</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation>Registrovat</translation>
+        <translation>Registrácia</translation>
     </message>
     <message>
         <source>Forgot password</source>
-        <translation>Zapomenuté heslo</translation>
+        <translation>Zabudli ste heslo?</translation>
     </message>
     <message>
         <source>User profile</source>
-        <translation>Profil uživatele</translation>
+        <translation>Profil užívateľa</translation>
     </message>
     <message>
         <source>Setting</source>
-        <translation>Nastavení</translation>
+        <translation>Nastavenia</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation>Aktivovat</translation>
+        <translation>Aktivovať</translation>
     </message>
     <message>
         <source>Success</source>
-        <translation>Úspěch</translation>
+        <translation>Úspech</translation>
     </message>
     <message>
         <source>oAuth</source>
@@ -28034,36 +28034,36 @@ your account.</source>
     <name>settings/edit</name>
     <message>
         <source>Settings</source>
-        <translation>Nastavení</translation>
+        <translation>Nastavenia</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Úprava</translation>
+        <translation>Upraviť</translation>
     </message>
 </context>
 <context>
     <name>settings/view</name>
     <message>
         <source>Settings</source>
-        <translation>Nastavení</translation>
+        <translation>Nastavenia</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Zobrazení</translation>
+        <translation>Zobrazenie</translation>
     </message>
 </context>
 <context>
     <name>shop</name>
     <message>
         <source>Remove orders</source>
-        <translation>Odstranit objednávky</translation>
+        <translation>Odstránit objednávky</translation>
     </message>
 </context>
 <context>
     <name>simplified_treemenu/show_simplified_menu</name>
     <message>
         <source>Node ID: %node_id Visibility: %visibility</source>
-        <translation>Uzel ID: %node_id Viditelnost: %visibility</translation>
+        <translation>Uzel ID: %node_id Viditelnosť: %visibility</translation>
     </message>
 </context>
 </TS>

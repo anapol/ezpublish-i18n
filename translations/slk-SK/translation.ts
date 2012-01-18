@@ -24593,11 +24593,11 @@ your account.</source>
     </message>
     <message>
         <source>Your registration has been approved. You can login with your account %username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaša registrácia boľa schválená. Môžete sa prihlásiť s vaším novým uživateľským menom %username.</translation>
     </message>
     <message>
         <source>Click the following URL to login:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na následujúcu adresu pre prihlášenie:</translation>
     </message>
 </context>
 <context>
@@ -27871,7 +27871,7 @@ your account.</source>
     </message>
     <message>
         <source>authorization</source>
-        <translation type="unfinished"></translation>
+        <translation>autorizácia</translation>
     </message>
 </context>
 <context>
@@ -27886,7 +27886,7 @@ your account.</source>
     </message>
     <message>
         <source>User registration approved</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrácia uživateľa bola schválená</translation>
     </message>
 </context>
 <context>
@@ -27979,7 +27979,7 @@ your account.</source>
     </message>
     <message>
         <source>Finish User Registration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokonči registráciu uživateľa</translation>
     </message>
 </context>
 <context>

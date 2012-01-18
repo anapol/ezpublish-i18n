@@ -24593,11 +24593,11 @@ your account.</source>
     </message>
     <message>
         <source>Your registration has been approved. You can login with your account %username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaše registrace byla schválena. Můžete se přihlásit s Vaším novým uživatelským jménem %username.</translation>
     </message>
     <message>
         <source>Click the following URL to login:</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte na tuto adresu k přihlášení:</translation>
     </message>
 </context>
 <context>
@@ -26586,7 +26586,7 @@ your account.</source>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>The request sent to the server was too big to be accepted. This probably means that you uploaded a file which was too big. The maximum allowed request size is %max_size_string.</source>
@@ -26606,11 +26606,11 @@ your account.</source>
     </message>
     <message>
         <source>User</source>
-        <translation type="unfinished">Uživatel</translation>
+        <translation>Uživatel</translation>
     </message>
     <message>
         <source>Unactivated users</source>
-        <translation type="unfinished"></translation>
+        <translation>Neaktivovaní uživatelé</translation>
     </message>
 </context>
 <context>
@@ -27867,11 +27867,11 @@ your account.</source>
     </message>
     <message>
         <source>oAuth</source>
-        <translation type="unfinished"></translation>
+        <translation>oAuth</translation>
     </message>
     <message>
         <source>authorization</source>
-        <translation type="unfinished"></translation>
+        <translation>autorizace</translation>
     </message>
 </context>
 <context>
@@ -27886,7 +27886,7 @@ your account.</source>
     </message>
     <message>
         <source>User registration approved</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrace uživatele schválena</translation>
     </message>
 </context>
 <context>
@@ -27979,7 +27979,7 @@ your account.</source>
     </message>
     <message>
         <source>Finish User Registration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokončit registraci uživatele</translation>
     </message>
 </context>
 <context>

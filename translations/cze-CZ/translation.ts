@@ -70,7 +70,7 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Zavřít</translation>
     </message>
     <message>
         <source>Step 3/3: Preview of '%name' (%class)</source>
@@ -78,7 +78,7 @@
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Přidat</translation>
     </message>
     <message>
         <source>Step 1/3: Upload a file</source>
@@ -462,7 +462,7 @@
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kategorie</translation>
     </message>
 </context>
 <context>
@@ -493,7 +493,7 @@
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Current modifier</source>
@@ -1064,7 +1064,7 @@
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kategorie</translation>
     </message>
     <message>
         <source>Application name</source>
@@ -1806,7 +1806,7 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Store draft</source>
@@ -1822,7 +1822,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Modified</source>
@@ -2058,15 +2058,15 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Publikovat koncept který je upravován.</translation>
     </message>
     <message>
         <source>Class identifier</source>
-        <translation>Identifikátor třídy</translation>
+        <translation>Identifikátor typu</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation>Jméno třídy</translation>
+        <translation>Název typu</translation>
     </message>
     <message>
         <source>This location will remain unchanged when the object is published.</source>
@@ -2118,11 +2118,11 @@
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Uložit koncept a odejít</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Uloží koncept a ukončí editaci. Použijte pro uložení rozpracovaného konceptu k pozdějšímu dokončení.</translation>
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
@@ -2407,7 +2407,7 @@
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nemáte práva vytvořit překlad v jiném jazyce.</translation>
     </message>
     <message>
         <source>However you can select one of the following languages for editing.</source>
@@ -2498,7 +2498,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Vydáno</translation>
+        <translation type="unfinished">Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -2554,7 +2554,7 @@
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Tento objekt nemá žádné koncepty.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
@@ -2578,7 +2578,7 @@
     </message>
     <message>
         <source>Back to history</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Zpět do historie</translation>
     </message>
     <message>
         <source>Version is not a draft</source>
@@ -2980,7 +2980,7 @@
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Any class</source>
@@ -3004,7 +3004,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Any time</source>
@@ -3982,7 +3982,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -4081,7 +4081,7 @@
     </message>
     <message>
         <source>Publish</source>
-        <translation>Vydat</translation>
+        <translation>Publikovat</translation>
     </message>
     <message>
         <source>Publish the draft that is being displayed.</source>
@@ -4179,7 +4179,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Vydáno</translation>
+        <translation type="unfinished">Publikováno</translation>
     </message>
     <message>
         <source>Author</source>
@@ -4338,7 +4338,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Vydáno</translation>
+        <translation type="unfinished">Publikováno</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -4398,7 +4398,7 @@
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>The requested page could not be displayed. (2)</source>
@@ -5017,7 +5017,7 @@
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Section</source>
@@ -5197,15 +5197,15 @@
     </message>
     <message>
         <source>Class identifier</source>
-        <translation>Identifikátor třídy</translation>
+        <translation>Identifikátor typu</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation>Jméno třídy</translation>
+        <translation>Název typu</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Použijte tyto ovládací prvky pro nastavení způsobu třídění podprvků aktuálního umístění.</translation>
+        <translation>Použijte tyto ovládací prvky pro nastavení způsobu třídění podprvků této stránky.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -5329,7 +5329,7 @@
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Published at</source>
@@ -5373,11 +5373,11 @@
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nemůžete nastavit metodu třídění aktuálního umístění protože nemáte oprávnění k úpravám aktuálního prvku.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nemáte oprávnění k odstranění tohoto prvku.</translation>
     </message>
     <message>
         <source>This location cannot be removed either because you do not have permission to remove it or because it is currently being displayed.</source>
@@ -5517,7 +5517,7 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Invertovat výběr</translation>
     </message>
     <message>
         <source>Create new</source>
@@ -5673,7 +5673,7 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Zavřít</translation>
     </message>
     <message>
         <source>Node Remote ID and Object Remote ID</source>
@@ -6341,7 +6341,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Logout</source>
-        <translation>Odhlásit</translation>
+        <translation>Odhlášení</translation>
     </message>
     <message>
         <source>Change user info</source>
@@ -6421,7 +6421,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Zavřít</translation>
     </message>
     <message>
         <source>Search in all content</source>
@@ -7587,7 +7587,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Properties</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Vlastnosti</translation>
     </message>
     <message>
         <source>Nodes (%node_count)</source>
@@ -7721,7 +7721,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Změnit výběr</translation>
     </message>
     <message>
         <source>Select role for removal.</source>
@@ -7891,7 +7891,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Změnit výběr</translation>
     </message>
     <message>
         <source>Select user or user group for removal.</source>
@@ -8038,7 +8038,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Set</source>
@@ -8190,7 +8190,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kategorie</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
@@ -8237,7 +8237,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Set</source>
@@ -8380,7 +8380,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Invertovat výběr</translation>
     </message>
     <message>
         <source>Invert selection.</source>
@@ -9613,7 +9613,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Class name</source>
-        <translation type="unfinished">Jméno třídy</translation>
+        <translation type="unfinished">Název typu</translation>
     </message>
     <message>
         <source>Author</source>
@@ -9712,7 +9712,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Invertovat výběr</translation>
     </message>
     <message>
         <source>Invert selection.</source>
@@ -9720,7 +9720,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Login</translation>
+        <translation type="unfinished">Přihlášení</translation>
     </message>
     <message>
         <source>Count</source>
@@ -9811,7 +9811,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Place</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Místo</translation>
     </message>
     <message>
         <source>State</source>
@@ -10029,7 +10029,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Mezisoučet ceny bez DPH</translation>
     </message>
     <message>
         <source>Shipping total ex. VAT</source>
@@ -10169,7 +10169,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Code</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kód</translation>
     </message>
     <message>
         <source>Symbol</source>
@@ -10269,7 +10269,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Použijte tyto políčka pro označení prvků k odstranění. Klikněte na tlačítko "Odebrat vybrané" pro odstranění označených prvků.</translation>
     </message>
 </context>
 <context>
@@ -10432,7 +10432,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Apply to</source>
-        <translation type="unfinished">Použij na</translation>
+        <translation type="unfinished">Použít na</translation>
     </message>
     <message>
         <source>Remove selected</source>
@@ -11977,7 +11977,7 @@ Note: The packages will not be uninstalled.</source>
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -12038,7 +12038,7 @@ your account.</source>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Změnit výběr</translation>
     </message>
     <message>
         <source>Registration date</source>
@@ -12050,7 +12050,7 @@ your account.</source>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Login</translation>
+        <translation type="unfinished">Přihlášení</translation>
     </message>
     <message>
         <source>E-mail</source>
@@ -12368,7 +12368,7 @@ your account.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>All classes</source>
@@ -12782,7 +12782,7 @@ your account.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Update attributes</source>
@@ -13439,7 +13439,7 @@ your account.</source>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -13447,7 +13447,7 @@ your account.</source>
     </message>
     <message>
         <source>Publish</source>
-        <translation>Vydat</translation>
+        <translation>Publikovat</translation>
     </message>
     <message>
         <source>Store</source>
@@ -14109,7 +14109,7 @@ your account.</source>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Sloupce</translation>
     </message>
     <message>
         <source>Matrix column</source>
@@ -14169,7 +14169,7 @@ your account.</source>
     </message>
     <message>
         <source>Elements</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Prvky</translation>
     </message>
     <message>
         <source>Element</source>
@@ -14630,7 +14630,7 @@ your account.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Last modifier</source>
@@ -15102,7 +15102,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -15844,7 +15844,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Vydáno</translation>
+        <translation type="unfinished">Publikováno</translation>
     </message>
     <message>
         <source>Multioption:</source>
@@ -15987,7 +15987,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation>Poslat k vydání</translation>
+        <translation>Odeslat k publikaci</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -16023,7 +16023,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Modified</source>
@@ -16157,7 +16157,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Current drafts</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nynější koncepty</translation>
     </message>
     <message>
         <source>Version</source>
@@ -16206,11 +16206,11 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class identifier</source>
-        <translation type="unfinished">Identifikátor třídy</translation>
+        <translation type="unfinished">Identifikátor typu</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation type="unfinished">Jméno třídy</translation>
+        <translation type="unfinished">Název typu</translation>
     </message>
 </context>
 <context>
@@ -16253,11 +16253,11 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Use an empty, untranslated draft</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Použijte prázdný, nepřeložený koncept</translation>
     </message>
     <message>
         <source>You do not have permission to create a translation in another language.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nemáte práva vytvořit překlad v jiném jazyce.</translation>
     </message>
 </context>
 <context>
@@ -16357,7 +16357,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Published</source>
-        <translation type="unfinished">Vydáno</translation>
+        <translation type="unfinished">Publikováno</translation>
     </message>
     <message>
         <source>Pending</source>
@@ -16417,11 +16417,11 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>New drafts [%newerDraftCount]</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Nové koncepty [%newerDraftCount]</translation>
     </message>
     <message>
         <source>This object does not have any drafts.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Tento objekt nemá žádné koncepty.</translation>
     </message>
     <message>
         <source>Differences between versions %oldVersion and %newVersion</source>
@@ -16445,7 +16445,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Back to history</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Zpět do historie</translation>
     </message>
     <message>
         <source>Version is not a draft</source>
@@ -16624,7 +16624,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Class attribute</source>
@@ -16636,7 +16636,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>No results were found when searching for "%1"</source>
@@ -16799,7 +16799,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -16901,7 +16901,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Publish</source>
-        <translation>Vydat</translation>
+        <translation>Publikovat</translation>
     </message>
     <message>
         <source>Versions</source>
@@ -16913,7 +16913,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -17184,7 +17184,7 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>All classes</source>
@@ -17512,7 +17512,7 @@ If you want to send comments to the approver or view the status use the URL belo
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>The module name was misspelled, try changing the URL.</source>
@@ -17616,11 +17616,11 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Logout</source>
-        <translation>Odhlásit</translation>
+        <translation>Odhlášení</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -17877,7 +17877,7 @@ Pokud tak učiníte, budou odebráni také všichni potomci.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Priority</source>
@@ -18048,7 +18048,7 @@ Pokud tak učiníte, budou odebráni také všichni potomci.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -19148,7 +19148,7 @@ menu on the top.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Třída</translation>
+        <translation type="unfinished">Typ</translation>
     </message>
     <message>
         <source>Update</source>
@@ -19216,7 +19216,7 @@ menu on the top.</source>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Export</translation>
     </message>
     <message>
         <source>Number of objects</source>
@@ -19256,7 +19256,7 @@ menu on the top.</source>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kategorie</translation>
     </message>
     <message>
         <source>Enclosure (media)</source>
@@ -19714,7 +19714,7 @@ Datový typ %datatypename můžete využít pro ...</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -21170,7 +21170,7 @@ Pro vyřešení musíte udělat něco z následujících možností:</translatio
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Login</translation>
+        <translation type="unfinished">Přihlášení</translation>
     </message>
     <message>
         <source>The login name is fixed and cannot be changed.
@@ -21800,7 +21800,7 @@ This functionality is also available at a later time from the Administration Int
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Login</translation>
+        <translation type="unfinished">Přihlášení</translation>
     </message>
     <message>
         <source>Full name</source>
@@ -22752,7 +22752,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Apply to</source>
-        <translation>Použij na</translation>
+        <translation>Použít na</translation>
     </message>
     <message>
         <source>Discount percent</source>
@@ -22760,7 +22760,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Section</source>
@@ -22857,7 +22857,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Remove items</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Odstranit položky</translation>
     </message>
     <message>
         <source>Customer list</source>
@@ -22877,11 +22877,11 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Purchase list</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Seznam nákupu</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Částka</translation>
     </message>
     <message>
         <source>View</source>
@@ -22909,7 +22909,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>All fields marked with * must be filled in.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Všechna ple označena s * musí být vyplněna.</translation>
     </message>
     <message>
         <source>Customer information</source>
@@ -22929,11 +22929,11 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Zip</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">PSČ</translation>
     </message>
     <message>
         <source>Place</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Místo</translation>
     </message>
     <message>
         <source>State</source>
@@ -23077,7 +23077,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Subtotal ex. VAT</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Mezisoučet ceny bez DPH</translation>
     </message>
     <message>
         <source>Subtotal inc. VAT</source>
@@ -23436,7 +23436,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Calendar</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Kalendář</translation>
     </message>
     <message>
         <source>My drafts</source>
@@ -23464,11 +23464,11 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>Logout</source>
-        <translation type="unfinished">Odhlásit</translation>
+        <translation type="unfinished">Odhlášení</translation>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Login</translation>
+        <translation type="unfinished">Přihlášení</translation>
     </message>
     <message>
         <source>Password</source>
@@ -23719,7 +23719,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     <name>design/standard/user</name>
     <message>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Activate account</source>
@@ -23804,7 +23804,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     <message>
         <source>Login</source>
         <comment>Button</comment>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Sign Up</source>
@@ -24089,7 +24089,7 @@ your account.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>All classes</source>
@@ -24652,7 +24652,7 @@ your account.</source>
     </message>
     <message>
         <source>Class</source>
-        <translation>Třída</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Classes to run workflow</source>
@@ -25821,7 +25821,7 @@ your account.</source>
     </message>
     <message>
         <source>Node '%1' does not exist.</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Uzel '%1' neexistuje.</translation>
     </message>
     <message>
         <source>Using scripts in links is not allowed, link '%1' has been removed</source>
@@ -25829,7 +25829,7 @@ your account.</source>
     </message>
     <message>
         <source>Invalid e-mail address: '%1'</source>
-        <translation type="unfinished" />
+        <translation type="unfinished">Neplatná e-mailová adresa: '%1'</translation>
     </message>
     <message>
         <source>Object %1 can not be embeded to itself.</source>
@@ -25979,11 +25979,11 @@ your account.</source>
     </message>
     <message>
         <source>Class identifier</source>
-        <translation>Identifikátor třídy</translation>
+        <translation>Identifikátor typu</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation>Jméno třídy</translation>
+        <translation>Název typu</translation>
     </message>
     <message>
         <source>Depth</source>
@@ -26007,7 +26007,7 @@ your account.</source>
     </message>
     <message>
         <source>Published</source>
-        <translation>Vydáno</translation>
+        <translation>Publikováno</translation>
     </message>
     <message>
         <source>Section</source>
@@ -27295,7 +27295,7 @@ your account.</source>
     </message>
     <message>
         <source>Login</source>
-        <translation>Login</translation>
+        <translation>Přihlášení</translation>
     </message>
     <message>
         <source>Change password</source>

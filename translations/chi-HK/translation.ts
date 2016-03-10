@@ -6015,6 +6015,10 @@
         <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Objects containing ezuser attributes can not be sent to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view</name>
@@ -7096,6 +7100,10 @@
         <source>Object Remote ID</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view/line</name>
@@ -7764,7 +7772,7 @@ Note: The packages will not be uninstalled.</source>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7772,7 +7780,7 @@ Note: The packages will not be uninstalled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -16097,11 +16105,11 @@ your account.</source>
     <name>design/ezdemo/full/article</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished">告知朋友</translation>
+        <translation type="obsolete">告知朋友</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">位置</translation>
+        <translation type="obsolete">位置</translation>
     </message>
 </context>
 <context>
@@ -18546,6 +18554,10 @@ If you want to send comments to the approver or view the status use the URL belo
     </message>
     <message>
         <source>Html5 Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -24404,7 +24416,7 @@ To fix this problem you must do one of the following:</source>
     </message>
     <message>
         <source>Site registration</source>
-        <translation>網站註冊</translation>
+        <translation type="obsolete">網站註冊</translation>
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ systems</source>
@@ -24570,31 +24582,31 @@ To fix this problem you must do one of the following:</source>
     </message>
     <message>
         <source>Send registration</source>
-        <translation>發送註冊資料</translation>
+        <translation type="obsolete">發送註冊資料</translation>
     </message>
     <message>
         <source>System details (OS type, etc)</source>
-        <translation>系統詳細資料 (作業系統類型…等等)</translation>
+        <translation type="obsolete">系統詳細資料 (作業系統類型…等等)</translation>
     </message>
     <message>
         <source>The test results</source>
-        <translation>測試結果</translation>
+        <translation type="obsolete">測試結果</translation>
     </message>
     <message>
         <source>The database type</source>
-        <translation>資料庫型態</translation>
+        <translation type="obsolete">資料庫型態</translation>
     </message>
     <message>
         <source>The site name</source>
-        <translation>站台名稱</translation>
+        <translation type="obsolete">站台名稱</translation>
     </message>
     <message>
         <source>The url of the site</source>
-        <translation>站台的網址</translation>
+        <translation type="obsolete">站台的網址</translation>
     </message>
     <message>
         <source>Languages chosen</source>
-        <translation>所選的語言</translation>
+        <translation type="obsolete">所選的語言</translation>
     </message>
     <message>
         <source>This data will help to improve future releases of eZ publish.</source>
@@ -25356,11 +25368,11 @@ It is possible to change these settings at a later time.</source>
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ Systems</source>
-        <translation type="unfinished">下列資訊將藉由傳送註冊資料而送到 eZ 系統</translation>
+        <translation type="obsolete">下列資訊將藉由傳送註冊資料而送到 eZ 系統</translation>
     </message>
     <message>
         <source>This data will help to improve future releases of eZ Publish.</source>
-        <translation type="unfinished">此資料將會協助改善未來釋出的 eZ publish。</translation>
+        <translation type="obsolete">此資料將會協助改善未來釋出的 eZ publish。</translation>
     </message>
     <message>
         <source>Your site is not running in a virtual host mode, this is insecure. It is recommended to run eZ Publish in virtual host mode. If you do not have the possibility to use virtual host mode, you should follow the instructions below about how to install an .htaccess file. The .htaccess file tells the web server to restrict the access to certain files.</source>
@@ -25466,51 +25478,65 @@ This functionality is also available at a later time from the Administration Int
         <translation type="unfinished">國家</translation>
     </message>
     <message>
-        <source>In order to provide you with the best service in the future, we need some statistics to know a bit about your usage of eZ Publish and its underlying platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In return this will also provide you with heads-up on security issues, notifications about updates, upgrades and other important news.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This happens periodically, and you will always be able to opt-out of this at anytime.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Could not send registration data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Required data is either missing or is invalid</source>
-        <translation type="unfinished">必要資料若非缺少就是無效</translation>
-    </message>
-    <message>
-        <source>Registration information email:</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">必要資料若非缺少就是無效</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished">公司</translation>
-    </message>
-    <message>
-        <source>Is this the first time you are installing eZ Publish?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Included some simple technical information?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Contents of registration email</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We care for your privacy. Read more &lt;a href=&apos;%link&apos; target=&apos;_blank&apos;&gt;here&lt;/a&gt;. This data will be treated securely and not shared with third parties without your permission.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">公司</translation>
     </message>
     <message>
         <source>Welcome to %edition %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Looking for other packages? Full archive of all packages can be found &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notice: The out of the box front-end site often relies on data within a package. This is why it is strongly suggested to map the package language to your primary language, otherwise you&apos;ll need to adjust the configuration and template files to get it working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open source software is nothing without a vibrant community!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you need to share knowledge, exchange tips with developers or simply find some improvement tricks, the eZ Community is the place to go.&lt;/p&gt;
+
+&lt;p&gt;
+How do you access it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go on &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on Register (top of the page) and create your profile&lt;/li&gt;
+&lt;li&gt;Here you can check out the &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;blog posts&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;partners&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;We<byte value="x19"/>re looking forward to seeing what you share with the Community!&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discover the eZ Publish Platform forums</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>eZ Publish 5 platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installation &amp; configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup and design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>General</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -25976,11 +26002,11 @@ This functionality is also available at a later time from the Administration Int
     </message>
     <message>
         <source>AcceptPathInfo disabled or running in CGI mode</source>
-        <translation>AcceptPathInfo 已停用，或是在 CGI 模式中執行</translation>
+        <translation type="obsolete">AcceptPathInfo 已停用，或是在 CGI 模式中執行</translation>
     </message>
     <message>
         <source>enter the following into your httpd.conf file.</source>
-        <translation>輸入下列設定到你的 httpd.conf 檔案。</translation>
+        <translation type="obsolete">輸入下列設定到你的 httpd.conf 檔案。</translation>
     </message>
     <message>
         <source>Remember to restart your web server afterwards.</source>
@@ -26142,7 +26168,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>You need to enable AcceptPathInfo in your Apache config file, if you&apos;re using apache 2.x.</source>
-        <translation>如果你請使用 apache 2.x，你需要在你的 Apache 配置檔案中啟用 AcceptPathInfo。</translation>
+        <translation type="obsolete">如果你請使用 apache 2.x，你需要在你的 Apache 配置檔案中啟用 AcceptPathInfo。</translation>
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ publish will not run in CGI mode.</source>
@@ -26186,7 +26212,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ Publish will not run in CGI mode.</source>
-        <translation type="unfinished">如果你正在執行 apache 1.3，eZ publish 將無法在 CGI 模式中運行。</translation>
+        <translation type="obsolete">如果你正在執行 apache 1.3，eZ publish 將無法在 CGI 模式中運行。</translation>
     </message>
     <message>
         <source>Your PHP does not have support for all databases that eZ Publish support.</source>
@@ -26454,6 +26480,26 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing intl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The intl extension, required for internationalization, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More information on installing it is available at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing xsl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The xsl extension, required by rich text handling, is not installed or enabled.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28822,12 +28868,9 @@ your account.</source>
         <source>Language</source>
         <translation>語言</translation>
     </message>
-</context>
-<context>
-    <name>design/starndard/node</name>
     <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation type="unfinished">確認要刪除這些項目？</translation>
+        <source>Item can not be found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -29098,6 +29141,10 @@ your account.</source>
     </message>
     <message>
         <source>SSL Zones cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content Language cache</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

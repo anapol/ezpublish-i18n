@@ -5339,6 +5339,10 @@ Knapp</translation>
         <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation>Borttagningen misslyckades då det finns väntande underobjekt i noden. Slutför pågående process innan du försöker ta bort igen.</translation>
     </message>
+    <message>
+        <source>Objects containing ezuser attributes can not be sent to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view</name>
@@ -6304,6 +6308,10 @@ Knapp</translation>
         <source>Object Remote ID</source>
         <translation>Fjärr-id för objekt</translation>
     </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view/line</name>
@@ -6900,7 +6908,7 @@ Obs: Paketen avinstalleras inte.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6908,7 +6916,7 @@ Obs: Paketen avinstalleras inte.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14689,12 +14697,8 @@ ditt konto.</translation>
 <context>
     <name>design/ezdemo/full/article</name>
     <message>
-        <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Location</source>
-        <translation type="unfinished">Plats</translation>
+        <translation type="obsolete">Plats</translation>
     </message>
 </context>
 <context>
@@ -16986,6 +16990,10 @@ Om du vill skicka kommentarer till personen som godkänner eller visa statusen, 
     <message>
         <source>Html5 Audio</source>
         <translation>Html5-ljud</translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -22077,7 +22085,7 @@ För att fixa dett måste du göra något av följande:</translation>
     </message>
     <message>
         <source>Site registration</source>
-        <translation>Registrering</translation>
+        <translation type="obsolete">Registrering</translation>
     </message>
     <message>
         <source>Site access configuration</source>
@@ -22262,31 +22270,31 @@ För att fixa dett måste du göra något av följande:</translation>
     </message>
     <message>
         <source>Send registration</source>
-        <translation>Skicka registrering</translation>
+        <translation type="obsolete">Skicka registrering</translation>
     </message>
     <message>
         <source>System details (OS type, etc)</source>
-        <translation>Systemdetaljer (OS typ etc.)</translation>
+        <translation type="obsolete">Systemdetaljer (OS typ etc.)</translation>
     </message>
     <message>
         <source>The test results</source>
-        <translation>Testresultaten</translation>
+        <translation type="obsolete">Testresultaten</translation>
     </message>
     <message>
         <source>The database type</source>
-        <translation>Databastypen</translation>
+        <translation type="obsolete">Databastypen</translation>
     </message>
     <message>
         <source>The site name</source>
-        <translation>Sidnamnet</translation>
+        <translation type="obsolete">Sidnamnet</translation>
     </message>
     <message>
         <source>The url of the site</source>
-        <translation>Standardadressen för sidan</translation>
+        <translation type="obsolete">Standardadressen för sidan</translation>
     </message>
     <message>
         <source>Languages chosen</source>
-        <translation>Valt språk</translation>
+        <translation type="obsolete">Valt språk</translation>
     </message>
     <message>
         <source>Site security</source>
@@ -22910,11 +22918,11 @@ It is possible to change these settings at a later time.</source>
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ Systems</source>
-        <translation>Genom att skicka registreringen skickas följande data till eZ Systems</translation>
+        <translation type="obsolete">Genom att skicka registreringen skickas följande data till eZ Systems</translation>
     </message>
     <message>
         <source>This data will help to improve future releases of eZ Publish.</source>
-        <translation>Datan används för att förbättra framtida versioner av eZ Publish.</translation>
+        <translation type="obsolete">Datan används för att förbättra framtida versioner av eZ Publish.</translation>
     </message>
     <message>
         <source>Your site is not running in a virtual host mode, this is insecure. It is recommended to run eZ Publish in virtual host mode. If you do not have the possibility to use virtual host mode, you should follow the instructions below about how to install an .htaccess file. The .htaccess file tells the web server to restrict the access to certain files.</source>
@@ -23007,51 +23015,61 @@ Denna funktionalitet finns också tillgänglig senare via Administrationsgränss
         <translation type="unfinished">Land</translation>
     </message>
     <message>
-        <source>In order to provide you with the best service in the future, we need some statistics to know a bit about your usage of eZ Publish and its underlying platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In return this will also provide you with heads-up on security issues, notifications about updates, upgrades and other important news.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This happens periodically, and you will always be able to opt-out of this at anytime.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Could not send registration data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Required data is either missing or is invalid</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Registration information email:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Company</source>
-        <translation type="unfinished">Företag</translation>
-    </message>
-    <message>
-        <source>Is this the first time you are installing eZ Publish?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Included some simple technical information?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Contents of registration email</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We care for your privacy. Read more &lt;a href=&apos;%link&apos; target=&apos;_blank&apos;&gt;here&lt;/a&gt;. This data will be treated securely and not shared with third parties without your permission.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Företag</translation>
     </message>
     <message>
         <source>Welcome to %edition %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Looking for other packages? Full archive of all packages can be found &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notice: The out of the box front-end site often relies on data within a package. This is why it is strongly suggested to map the package language to your primary language, otherwise you&apos;ll need to adjust the configuration and template files to get it working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open source software is nothing without a vibrant community!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you need to share knowledge, exchange tips with developers or simply find some improvement tricks, the eZ Community is the place to go.&lt;/p&gt;
+
+&lt;p&gt;
+How do you access it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go on &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on Register (top of the page) and create your profile&lt;/li&gt;
+&lt;li&gt;Here you can check out the &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;blog posts&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;partners&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;We<byte value="x19"/>re looking forward to seeing what you share with the Community!&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discover the eZ Publish Platform forums</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>eZ Publish 5 platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installation &amp; configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup and design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>General</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -23421,11 +23439,11 @@ Denna funktionalitet finns också tillgänglig senare via Administrationsgränss
     </message>
     <message>
         <source>AcceptPathInfo disabled or running in CGI mode</source>
-        <translation>AcceptPathInfo avstängd eller körs i CGI-alternativ</translation>
+        <translation type="obsolete">AcceptPathInfo avstängd eller körs i CGI-alternativ</translation>
     </message>
     <message>
         <source>enter the following into your httpd.conf file.</source>
-        <translation>fyll i följande i din httpd.conf fil.</translation>
+        <translation type="obsolete">fyll i följande i din httpd.conf fil.</translation>
     </message>
     <message>
         <source>Remember to restart your web server afterwards.</source>
@@ -23527,7 +23545,7 @@ Detta är ett säkerhetsproblem och bör ändras till en annan global temporär 
     </message>
     <message>
         <source>You need to enable AcceptPathInfo in your Apache config file, if you&apos;re using apache 2.x.</source>
-        <translation>Du måste starta AcceptPathInfo i din Apache konfigurationsfil om du använder apache 2.x.</translation>
+        <translation type="obsolete">Du måste starta AcceptPathInfo i din Apache konfigurationsfil om du använder apache 2.x.</translation>
     </message>
     <message>
         <source>allow_url_fopen ini setting is disabled</source>
@@ -23567,7 +23585,7 @@ Detta är ett säkerhetsproblem och bör ändras till en annan global temporär 
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ Publish will not run in CGI mode.</source>
-        <translation>Om du kör apache 1.3 kommer eZ Publish inte att köra i CGI-läge.</translation>
+        <translation type="obsolete">Om du kör apache 1.3 kommer eZ Publish inte att köra i CGI-läge.</translation>
     </message>
     <message>
         <source>eZ Publish cannot write to the</source>
@@ -23836,6 +23854,26 @@ För att göra detta måste du ändra %chown kommandona under Alternativa shell-
     <message>
         <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
         <translation>För att ändra, redigera din php.ini-konfiguration och lägg till &apos;E&apos; till &apos;variables_order&apos;-inställningen och starta om din webbserver.</translation>
+    </message>
+    <message>
+        <source>Missing intl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The intl extension, required for internationalization, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More information on installing it is available at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing xsl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The xsl extension, required by rich text handling, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26100,12 +26138,9 @@ ditt konto.</translation>
         <source>Language</source>
         <translation>Språk</translation>
     </message>
-</context>
-<context>
-    <name>design/starndard/node</name>
     <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation>Är du säker att du vill radera dessa objekt?</translation>
+        <source>Item can not be found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26372,6 +26407,10 @@ ditt konto.</translation>
     </message>
     <message>
         <source>SSL Zones cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content Language cache</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

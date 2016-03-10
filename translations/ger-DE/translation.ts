@@ -6692,6 +6692,10 @@
         <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation>Die Entfernung schlug fehl, da ein unerledigtes Unterobjekt im Knoten liegt. Bitte schliessen Sie den entsprechenden Prozess ab und wiederholen Sie das Entfernen.</translation>
     </message>
+    <message>
+        <source>Objects containing ezuser attributes can not be sent to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view</name>
@@ -7909,6 +7913,10 @@
         <source>Object Remote ID</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view/line</name>
@@ -8608,7 +8616,7 @@ Hinweis: Die Pakete werden nicht deinstalliert.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8616,7 +8624,7 @@ Hinweis: Die Pakete werden nicht deinstalliert.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -17356,12 +17364,8 @@ Bitte folgen Sie den Instruktionen in der Email um Ihr Konto zu aktivieren.</tra
 <context>
     <name>design/ezdemo/full/article</name>
     <message>
-        <source>Tip a friend</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Location</source>
-        <translation type="unfinished">Ort</translation>
+        <translation type="obsolete">Ort</translation>
     </message>
 </context>
 <context>
@@ -20318,6 +20322,10 @@ Wenn Sie einen Kommentar zum Freigebenden schicken oder den Status sehen wollen,
     <message>
         <source>Html5 Audio</source>
         <translation type="unfinished">Html5 Audio</translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26762,7 +26770,7 @@ Um das Problem zu lösen, müssen Sie eins der folgenden Dinge tun:</translation
     </message>
     <message>
         <source>Site registration</source>
-        <translation>Site Registrierung</translation>
+        <translation type="obsolete">Site Registrierung</translation>
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ systems</source>
@@ -27089,31 +27097,31 @@ Um das Problem zu lösen, müssen Sie eins der folgenden Dinge tun:</translation
     </message>
     <message>
         <source>Send registration</source>
-        <translation>Registrierung abschicken</translation>
+        <translation type="obsolete">Registrierung abschicken</translation>
     </message>
     <message>
         <source>System details (OS type, etc)</source>
-        <translation>System Details (Betriebssystem usw.)</translation>
+        <translation type="obsolete">System Details (Betriebssystem usw.)</translation>
     </message>
     <message>
         <source>The test results</source>
-        <translation>Die Testergebnisse</translation>
+        <translation type="obsolete">Die Testergebnisse</translation>
     </message>
     <message>
         <source>The database type</source>
-        <translation>Der Typ der Datenbank</translation>
+        <translation type="obsolete">Der Typ der Datenbank</translation>
     </message>
     <message>
         <source>The site name</source>
-        <translation>Der Name der Seite</translation>
+        <translation type="obsolete">Der Name der Seite</translation>
     </message>
     <message>
         <source>The url of the site</source>
-        <translation>Die Adresse der Seite</translation>
+        <translation type="obsolete">Die Adresse der Seite</translation>
     </message>
     <message>
         <source>Languages chosen</source>
-        <translation>Die gewählte(n) Sprache(n)</translation>
+        <translation type="obsolete">Die gewählte(n) Sprache(n)</translation>
     </message>
     <message>
         <source>This data will help to improve future releases of eZ publish.</source>
@@ -27815,7 +27823,7 @@ Mit Ihrer Hilfe können wir Fehler, die eventuell in eZ Publish auftreten könnt
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ Systems</source>
-        <translation>Wenn Sie die Registrierung senden, werden folgende Daten an eZ System übermittelt</translation>
+        <translation type="obsolete">Wenn Sie die Registrierung senden, werden folgende Daten an eZ System übermittelt</translation>
     </message>
     <message>
         <source>Your site is not running in a virtual host mode, this is insecure. It is recommended to run eZ Publish in virtual host mode. If you do not have the possibility to use virtual host mode, you should follow the instructions below about how to install an .htaccess file. The .htaccess file tells the web server to restrict the access to certain files.</source>
@@ -27937,7 +27945,7 @@ This functionality is also available at a later time from the Administration Int
     </message>
     <message>
         <source>This data will help to improve future releases of eZ Publish.</source>
-        <translation>Diese Daten werden helfen, zukünftige Ausgaben von eZ Publish zu verbessern.</translation>
+        <translation type="obsolete">Diese Daten werden helfen, zukünftige Ausgaben von eZ Publish zu verbessern.</translation>
     </message>
     <message>
         <source>The problems are usually file-system related and can be easily fixed by copy / paste / running the suggested commands in a system shell.</source>
@@ -27991,51 +27999,65 @@ This functionality is also available at a later time from the Administration Int
         <translation type="unfinished">Land</translation>
     </message>
     <message>
-        <source>In order to provide you with the best service in the future, we need some statistics to know a bit about your usage of eZ Publish and its underlying platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In return this will also provide you with heads-up on security issues, notifications about updates, upgrades and other important news.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This happens periodically, and you will always be able to opt-out of this at anytime.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Could not send registration data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Required data is either missing or is invalid</source>
-        <translation type="unfinished">Entweder wurden benötigte Felder nicht ausgefüllt oder die Eingaben waren nicht gültig</translation>
-    </message>
-    <message>
-        <source>Registration information email:</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Entweder wurden benötigte Felder nicht ausgefüllt oder die Eingaben waren nicht gültig</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished">Unternehmen</translation>
-    </message>
-    <message>
-        <source>Is this the first time you are installing eZ Publish?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Included some simple technical information?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Contents of registration email</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We care for your privacy. Read more &lt;a href=&apos;%link&apos; target=&apos;_blank&apos;&gt;here&lt;/a&gt;. This data will be treated securely and not shared with third parties without your permission.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Unternehmen</translation>
     </message>
     <message>
         <source>Welcome to %edition %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Looking for other packages? Full archive of all packages can be found &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notice: The out of the box front-end site often relies on data within a package. This is why it is strongly suggested to map the package language to your primary language, otherwise you&apos;ll need to adjust the configuration and template files to get it working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open source software is nothing without a vibrant community!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you need to share knowledge, exchange tips with developers or simply find some improvement tricks, the eZ Community is the place to go.&lt;/p&gt;
+
+&lt;p&gt;
+How do you access it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go on &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on Register (top of the page) and create your profile&lt;/li&gt;
+&lt;li&gt;Here you can check out the &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;blog posts&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;partners&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;We<byte value="x19"/>re looking forward to seeing what you share with the Community!&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discover the eZ Publish Platform forums</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>eZ Publish 5 platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installation &amp; configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup and design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>General</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -28537,11 +28559,11 @@ This functionality is also available at a later time from the Administration Int
     </message>
     <message>
         <source>AcceptPathInfo disabled or running in CGI mode</source>
-        <translation>AcceptPathInfo deaktiviert oder im CGI-Modus</translation>
+        <translation type="obsolete">AcceptPathInfo deaktiviert oder im CGI-Modus</translation>
     </message>
     <message>
         <source>enter the following into your httpd.conf file.</source>
-        <translation>geben Sie folgendes in Ihre httpd.conf ein.</translation>
+        <translation type="obsolete">geben Sie folgendes in Ihre httpd.conf ein.</translation>
     </message>
     <message>
         <source>Remember to restart your web server afterwards.</source>
@@ -28695,7 +28717,7 @@ Um das zu tun, müssen Sie die %chown Kommandos unter den alternativen Shell-Bef
     </message>
     <message>
         <source>You need to enable AcceptPathInfo in your Apache config file, if you&apos;re using apache 2.x.</source>
-        <translation>Sie müssen AcceptPathInfo in Ihrer Apache-Konfiguration aktivieren, wenn Sie apache 2.x verwenden.</translation>
+        <translation type="obsolete">Sie müssen AcceptPathInfo in Ihrer Apache-Konfiguration aktivieren, wenn Sie apache 2.x verwenden.</translation>
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ publish will not run in CGI mode.</source>
@@ -28771,7 +28793,7 @@ To do this you need to change the %chown commands under Alternative shell comman
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ Publish will not run in CGI mode.</source>
-        <translation>Falls Sie Apache 1.3 verwenden, wird eZ Publish nicht im CGI-Modus laufen.</translation>
+        <translation type="obsolete">Falls Sie Apache 1.3 verwenden, wird eZ Publish nicht im CGI-Modus laufen.</translation>
     </message>
     <message>
         <source>Your PHP does not have support for all databases that eZ Publish support.</source>
@@ -29036,6 +29058,26 @@ Um das zu tun, müssen Sie die %chown Kommandos unter den alternativen Shell-Bef
     <message>
         <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
         <translation>Um das zu beheben, bearbeiten Sie die php.ini Datei und fügen Sie ein E zu variables_order hinzu und starten Sie den Webserver neu.</translation>
+    </message>
+    <message>
+        <source>Missing intl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The intl extension, required for internationalization, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More information on installing it is available at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing xsl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The xsl extension, required by rich text handling, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -31667,12 +31709,9 @@ Bitte folgen Sie den Hinweisen in der Email, um Ihr Konto zu aktivieren.</transl
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
-</context>
-<context>
-    <name>design/starndard/node</name>
     <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation type="unfinished">Sind Sie sicher, dass Sie diese Objekte entfernen wollen?</translation>
+        <source>Item can not be found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -31943,6 +31982,10 @@ Bitte folgen Sie den Hinweisen in der Email, um Ihr Konto zu aktivieren.</transl
     </message>
     <message>
         <source>SSL Zones cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content Language cache</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

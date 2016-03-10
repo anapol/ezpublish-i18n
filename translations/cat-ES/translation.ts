@@ -5369,6 +5369,10 @@
         <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation>La eliminació ha fallat per que hi han sub objectes pendents sota el node. Si us plau, acaba el procés corresponent i desprès torna al procés d&apos;eliminació.</translation>
     </message>
+    <message>
+        <source>Objects containing ezuser attributes can not be sent to trash</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view</name>
@@ -6346,6 +6350,10 @@
         <source>Object Remote ID</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/node/view/line</name>
@@ -6942,7 +6950,7 @@ Nota: Els paquets no seran desinstal·lats.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6950,7 +6958,7 @@ Nota: Els paquets no seran desinstal·lats.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14763,11 +14771,11 @@ Segueix les instruccions d&apos;aquest correu per activar el teu compte.</transl
     <name>design/ezdemo/full/article</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished">Recomana a un amic</translation>
+        <translation type="obsolete">Recomana a un amic</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">Localització</translation>
+        <translation type="obsolete">Localització</translation>
     </message>
 </context>
 <context>
@@ -17058,6 +17066,10 @@ Si vols enviar comentaris a l&apos;encarregat d&apos;aprovar el contingut o veur
     <message>
         <source>Html5 Audio</source>
         <translation type="unfinished">Audio Html5</translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -22239,35 +22251,35 @@ Per solucionar aquest problema cal que facis el següent:</translation>
     </message>
     <message>
         <source>Site registration</source>
-        <translation>Registre del lloc</translation>
+        <translation type="obsolete">Registre del lloc</translation>
     </message>
     <message>
         <source>Send registration</source>
-        <translation>Envia el registre</translation>
+        <translation type="obsolete">Envia el registre</translation>
     </message>
     <message>
         <source>System details (OS type, etc)</source>
-        <translation>Detalls del sistema (sistema operatiu, etc.)</translation>
+        <translation type="obsolete">Detalls del sistema (sistema operatiu, etc.)</translation>
     </message>
     <message>
         <source>The test results</source>
-        <translation>Els resultats del test</translation>
+        <translation type="obsolete">Els resultats del test</translation>
     </message>
     <message>
         <source>The database type</source>
-        <translation>El tipus de base de dades</translation>
+        <translation type="obsolete">El tipus de base de dades</translation>
     </message>
     <message>
         <source>The site name</source>
-        <translation>El nom del lloc</translation>
+        <translation type="obsolete">El nom del lloc</translation>
     </message>
     <message>
         <source>The url of the site</source>
-        <translation>La URL del lloc</translation>
+        <translation type="obsolete">La URL del lloc</translation>
     </message>
     <message>
         <source>Languages chosen</source>
-        <translation>Els idiomes escollits</translation>
+        <translation type="obsolete">Els idiomes escollits</translation>
     </message>
     <message>
         <source>If you do not have shell access, you will have to copy the file using an FTP client or ask your hosting provider to do this for you.</source>
@@ -22931,7 +22943,7 @@ Amb la teva ajuda podem solucionar els errors que pugui tenir eZ Publish i imple
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ Systems</source>
-        <translation>En enviar el registre, es trametran les següents dades a eZ Systems</translation>
+        <translation type="obsolete">En enviar el registre, es trametran les següents dades a eZ Systems</translation>
     </message>
     <message>
         <source>Your site is not running in a virtual host mode, this is insecure. It is recommended to run eZ Publish in virtual host mode. If you do not have the possibility to use virtual host mode, you should follow the instructions below about how to install an .htaccess file. The .htaccess file tells the web server to restrict the access to certain files.</source>
@@ -23053,7 +23065,7 @@ També podràs fer-ho més endavant de la Interfície d&apos;Administració.</tr
     </message>
     <message>
         <source>This data will help to improve future releases of eZ Publish.</source>
-        <translation>Aquesta informació ens ajudarà a millorar noves versions d&apos;eZ Publish.</translation>
+        <translation type="obsolete">Aquesta informació ens ajudarà a millorar noves versions d&apos;eZ Publish.</translation>
     </message>
     <message>
         <source>The problems are usually file-system related and can be easily fixed by copy / paste / running the suggested commands in a system shell.</source>
@@ -23101,51 +23113,61 @@ També podràs fer-ho més endavant de la Interfície d&apos;Administració.</tr
         <translation type="unfinished">País</translation>
     </message>
     <message>
-        <source>In order to provide you with the best service in the future, we need some statistics to know a bit about your usage of eZ Publish and its underlying platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In return this will also provide you with heads-up on security issues, notifications about updates, upgrades and other important news.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This happens periodically, and you will always be able to opt-out of this at anytime.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Could not send registration data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Required data is either missing or is invalid</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Registration information email:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Company</source>
-        <translation type="unfinished">Empresa</translation>
-    </message>
-    <message>
-        <source>Is this the first time you are installing eZ Publish?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Included some simple technical information?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Contents of registration email</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We care for your privacy. Read more &lt;a href=&apos;%link&apos; target=&apos;_blank&apos;&gt;here&lt;/a&gt;. This data will be treated securely and not shared with third parties without your permission.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Empresa</translation>
     </message>
     <message>
         <source>Welcome to %edition %version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Looking for other packages? Full archive of all packages can be found &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Notice: The out of the box front-end site often relies on data within a package. This is why it is strongly suggested to map the package language to your primary language, otherwise you&apos;ll need to adjust the configuration and template files to get it working.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open source software is nothing without a vibrant community!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you need to share knowledge, exchange tips with developers or simply find some improvement tricks, the eZ Community is the place to go.&lt;/p&gt;
+
+&lt;p&gt;
+How do you access it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go on &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on Register (top of the page) and create your profile&lt;/li&gt;
+&lt;li&gt;Here you can check out the &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;blog posts&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;partners&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;We<byte value="x19"/>re looking forward to seeing what you share with the Community!&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discover the eZ Publish Platform forums</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>eZ Publish 5 platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installation &amp; configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Setup and design</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>General</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -23524,11 +23546,11 @@ També podràs fer-ho més endavant de la Interfície d&apos;Administració.</tr
     </message>
     <message>
         <source>AcceptPathInfo disabled or running in CGI mode</source>
-        <translation>AcceptPathInfo desactivat o mode CGI en funcionament </translation>
+        <translation type="obsolete">AcceptPathInfo desactivat o mode CGI en funcionament </translation>
     </message>
     <message>
         <source>enter the following into your httpd.conf file.</source>
-        <translation>introdueix el següent en el fitxer httpd.conf.</translation>
+        <translation type="obsolete">introdueix el següent en el fitxer httpd.conf.</translation>
     </message>
     <message>
         <source>Remember to restart your web server afterwards.</source>
@@ -23630,7 +23652,7 @@ Això és un problema de seguretat i ha de ser canviat a un altre directori glob
     </message>
     <message>
         <source>You need to enable AcceptPathInfo in your Apache config file, if you&apos;re using apache 2.x.</source>
-        <translation>Has d&apos;activar AcceptPathInfo al teu fitxer de configuració d&apos;Apache, si estàs fent servir apache 2.x.</translation>
+        <translation type="obsolete">Has d&apos;activar AcceptPathInfo al teu fitxer de configuració d&apos;Apache, si estàs fent servir apache 2.x.</translation>
     </message>
     <message>
         <source>allow_url_fopen ini setting is disabled</source>
@@ -23678,7 +23700,7 @@ Sense aquests canvis la instal·lació no pot finalitzar i fallaran algunes part
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ Publish will not run in CGI mode.</source>
-        <translation>Si estàs fent servir apache 1.3, eZ Publish no funcionarà en mode CGI.</translation>
+        <translation type="obsolete">Si estàs fent servir apache 1.3, eZ Publish no funcionarà en mode CGI.</translation>
     </message>
     <message>
         <source>Your PHP does not have support for all databases that eZ Publish support.</source>
@@ -23943,6 +23965,26 @@ Per fer-ho, cal que canviïs els comandaments %chown sota els comandaments alter
     <message>
         <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
         <translation>Per arreglar això, edita l&apos;arxiu php.ini i afegeix E a la configuració variables_order i reinicia el teu servidor web.</translation>
+    </message>
+    <message>
+        <source>Missing intl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The intl extension, required for internationalization, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More information on installing it is available at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Missing xsl extension</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The xsl extension, required by rich text handling, is not installed or enabled.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26205,12 +26247,9 @@ Segueix les instruccions d&apos;aquest correu per activar el teu compte. </trans
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
-</context>
-<context>
-    <name>design/starndard/node</name>
     <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation type="unfinished">Estàs segur de voler esborrar aquests elements?</translation>
+        <source>Item can not be found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26477,6 +26516,10 @@ Segueix les instruccions d&apos;aquest correu per activar el teu compte. </trans
     </message>
     <message>
         <source>SSL Zones cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content Language cache</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

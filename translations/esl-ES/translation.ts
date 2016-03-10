@@ -38,7 +38,7 @@
     </message>
     <message>
         <source>Step 1/3: Upload a file</source>
-        <translation type="unfinished">Paso 1/3: Subir un fichero</translation>
+        <translation>Paso 1/3: Subir un fichero</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2365,7 +2365,7 @@
     </message>
     <message>
         <source>Go to the top</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir arriba</translation>
     </message>
 </context>
 <context>
@@ -4669,7 +4669,7 @@
     <name>design/admin/dashboard/community</name>
     <message>
         <source>What&apos;s happening in the eZ Community</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Qué está pasando en la eZ Community?</translation>
     </message>
 </context>
 <context>
@@ -4758,12 +4758,13 @@
     </message>
     <message>
         <source>You are running &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;, it might not be up to date with the latest hot fixes and service packs. Contact &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems&lt;/a&gt; for more infomation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Está ejecutando &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;, puede que no está actualizado con las últimas resoluciones de incidencias y service packs</translation>
     </message>
     <message>
         <source>You are using %edition, the &lt;span id=&quot;ez-publish-community-project-is-innovative-and-cutting-edge&quot;&gt;innovative and cutting-edge&lt;/span&gt; version of eZ Publish, built by &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems&lt;/a&gt; and the &lt;a href=&quot;%ez_community_link&quot;&gt;eZ Community&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If this platform is critical for your business, we strongly recommend to subscribe to the Enterprise Edition of eZ Publish. More on &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems&lt;/a&gt;&apos; website.</source>
-        <translation type="unfinished"></translation>
+        <translation>Está usando %edition, la versión &lt;span id=&quot;ez-publish-community-project-is-innovative-and-cutting-edge&quot;&gt;innovadora y vanguardista&lt;/span&gt; de eZ Publish, desarrollada por &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems&lt;/a&gt; y la &lt;a href=&quot;%ez_community_link&quot;&gt;eZ Community&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si esta plataforma es crítica para su negocio, le recomendamos que se suscriba a la Enterprise Edition de eZ Publish. Más información en la web de &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -5376,6 +5377,10 @@
     <message>
         <source>Removal failed because there is pending sub object under the node. Please finish the relevant process then redo the removal.</source>
         <translation>La eliminación ha fallado por hay sub-objetos pendientes debajo del nodo. Por favor, acaba el proceso pertinente y después vuelve a hacer la eliminación.</translation>
+    </message>
+    <message>
+        <source>Objects containing ezuser attributes can not be sent to trash</source>
+        <translation>Los objetos que contienen atributos del tipo ezuser no pueden ser enviados a la papelera</translation>
     </message>
 </context>
 <context>
@@ -6288,7 +6293,7 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished">Cerrar</translation>
+        <translation>Cerrar</translation>
     </message>
     <message>
         <source>Select</source>
@@ -6344,15 +6349,19 @@
     </message>
     <message>
         <source>Node Remote ID and Object Remote ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID Remoto del Nodo e ID Remoto del Objeto</translation>
     </message>
     <message>
         <source>Node Remote ID</source>
-        <translation type="unfinished"></translation>
+        <translation>ID Remoto del Nodo</translation>
     </message>
     <message>
         <source>Object Remote ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Id Remoto del Objeto</translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation>No tiene permiso para ver el objeto relacionado</translation>
     </message>
 </context>
 <context>
@@ -6950,20 +6959,20 @@ Nota: los paquetes no serán desinstalados.</translation>
 <context>
     <name>design/admin/page_copyright</name>
     <message>
-        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
-        <translation type="unfinished"></translation>
+        <source>&lt;a href=&quot;%evaluate_link&quot;&gt;Evaluate eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Become a member of the eZ Community, exchange and contribute&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <translation>&lt;a href=&quot;%evaluate_link&quot;&gt;Pruebe eZ Publish Enterprise Edition&lt;/a&gt; - &lt;a href=&quot;%share_link&quot;&gt;Conviértase en miembro de la eZ Community para intercambiar conocimientos y contribuir al desarrollo&lt;/a&gt;. &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; y otros.</translation>
     </message>
     <message>
         <source>Powered by &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Funciona con &lt;span class=&quot;edition-info&quot;&gt;%edition&lt;/span&gt;. Para más informacion vea &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
     <message>
-        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2013 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
-        <translation type="unfinished"></translation>
+        <source> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; and others.</source>
+        <translation> &lt;a href=&quot;%ezpublish_link&quot;&gt;eZ Publish&lt;/a&gt; Copyright &amp;copy; 1999-2014 &lt;a href=&quot;%ez_link&quot;&gt;eZ Systems AS&lt;/a&gt; y otros.</translation>
     </message>
     <message>
         <source> For more information see &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation> Para más información vea &lt;a href=%about_link&gt;ezinfo/about&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -7146,15 +7155,15 @@ Nota: los paquetes no serán desinstalados.</translation>
     </message>
     <message>
         <source>Siteaccess:</source>
-        <translation type="unfinished"></translation>
+        <translation>Siteaccess</translation>
     </message>
     <message>
         <source>Global (override)</source>
-        <translation type="unfinished">Global (sobreescritura)</translation>
+        <translation>Global (sobreescritura)</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Fijar</translation>
+        <translation>Fijar</translation>
     </message>
     <message>
         <source>Change name, email, password, etc.</source>
@@ -7194,26 +7203,26 @@ Nota: los paquetes no serán desinstalados.</translation>
     </message>
     <message>
         <source>Search scope</source>
-        <translation type="unfinished"></translation>
+        <translation>Ámbito de búsqueda</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">Sección</translation>
+        <translation>Sección</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Todo</translation>
     </message>
     <message>
         <source>Search only from the current location</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar solo desde la localización actual</translation>
     </message>
 </context>
 <context>
     <name>design/admin/pagelayout/leftmenu</name>
     <message>
         <source>Show / Hide leftmenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar / Ocultar menú izquierdo</translation>
     </message>
 </context>
 <context>
@@ -7639,7 +7648,7 @@ Nota: los paquetes no serán desinstalados.</translation>
     </message>
     <message>
         <source>Unactivated users</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuarios no activados</translation>
     </message>
     <message>
         <source>Change the left menu width to small size.</source>
@@ -13042,66 +13051,66 @@ tu cuenta.</translation>
     </message>
     <message>
         <source>Unactivated users (%users_count)</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuariso no activados (%users_count)</translation>
     </message>
     <message>
         <source>Toggle selection</source>
-        <translation type="unfinished">Invertir la selección</translation>
+        <translation>Invertir la selección</translation>
     </message>
     <message>
         <source>Registration date</source>
-        <translation type="unfinished"></translation>
+        <translation>Fecha de registro</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nombre</translation>
+        <translation>Nombre</translation>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished"></translation>
+        <translation>Login</translation>
     </message>
     <message>
         <source>E-mail</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Activate selected users</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar usuarios seleccionados</translation>
     </message>
     <message>
         <source>Activate selected users.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar usuarios seleccionados.</translation>
     </message>
     <message>
         <source>Remove selected users</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar usuarios seleccionados</translation>
     </message>
     <message>
         <source>Remove selected users.</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar usuarios seleccionados.</translation>
     </message>
 </context>
 <context>
     <name>design/admin/user/activations</name>
     <message>
         <source>The following users have been successfully activated:</source>
-        <translation type="unfinished"></translation>
+        <translation>Los usuarios siguientes se han activado de forma correcta:</translation>
     </message>
     <message>
         <source>Some users have not been activated</source>
-        <translation type="unfinished"></translation>
+        <translation>Algunos usuarios no se han activado</translation>
     </message>
     <message>
         <source>The following unactivated users have been successfully removed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Los siguientes usuarios no activados se han borrado de forma correcta:</translation>
     </message>
     <message>
         <source>Some users have not been removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Algunos usuarios no se han borrado</translation>
     </message>
     <message>
         <source>There are no unactivated users</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay usuarios no activados</translation>
     </message>
 </context>
 <context>
@@ -13194,11 +13203,11 @@ tu cuenta.</translation>
     </message>
     <message>
         <source>or</source>
-        <translation type="unfinished">o</translation>
+        <translation>o</translation>
     </message>
     <message>
         <source>Register new account</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear nueva cuenta</translation>
     </message>
 </context>
 <context>
@@ -14787,11 +14796,7 @@ tu cuenta.</translation>
     <name>design/ezdemo/full/article</name>
     <message>
         <source>Tip a friend</source>
-        <translation type="unfinished">Avisa a un amigo</translation>
-    </message>
-    <message>
-        <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Avisa a un amigo</translation>
     </message>
 </context>
 <context>
@@ -17083,6 +17088,10 @@ Si quieres enviar comentarios al encargado de aprobar el contenido o ver el esta
     <message>
         <source>Html5 Audio</source>
         <translation>Audio Html5</translation>
+    </message>
+    <message>
+        <source>You are not allowed to view the related object</source>
+        <translation>No tiene permiso para ver el objeto relacionado</translation>
     </message>
 </context>
 <context>
@@ -20009,15 +20018,15 @@ También puedes borrar el paquete sin desinstalarlo de la lista de paquetes.</tr
     </message>
     <message>
         <source>Siteaccess:</source>
-        <translation type="unfinished"></translation>
+        <translation>Siteaccess:</translation>
     </message>
     <message>
         <source>Global (override)</source>
-        <translation type="unfinished">Global (sobreescritura)</translation>
+        <translation>Global (sobreescritura)</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Fijar</translation>
+        <translation>Fijar</translation>
     </message>
 </context>
 <context>
@@ -22205,7 +22214,7 @@ Para solucionar estos problemas tienes que hacer algo de lo que sigue:</translat
     </message>
     <message>
         <source>Site registration</source>
-        <translation>Registro del sitio</translation>
+        <translation type="obsolete">Registro del sitio</translation>
     </message>
     <message>
         <source>Site access configuration</source>
@@ -22357,31 +22366,31 @@ Para solucionar estos problemas tienes que hacer algo de lo que sigue:</translat
     </message>
     <message>
         <source>Send registration</source>
-        <translation>Enviar registro</translation>
+        <translation type="obsolete">Enviar registro</translation>
     </message>
     <message>
         <source>System details (OS type, etc)</source>
-        <translation>Detalles de sistema (sistema operativo, etc.)</translation>
+        <translation type="obsolete">Detalles de sistema (sistema operativo, etc.)</translation>
     </message>
     <message>
         <source>The test results</source>
-        <translation>Los últimos resultados</translation>
+        <translation type="obsolete">Los últimos resultados</translation>
     </message>
     <message>
         <source>The database type</source>
-        <translation>El tipo de base de datos</translation>
+        <translation type="obsolete">El tipo de base de datos</translation>
     </message>
     <message>
         <source>The site name</source>
-        <translation>El nombre del sitio</translation>
+        <translation type="obsolete">El nombre del sitio</translation>
     </message>
     <message>
         <source>The url of the site</source>
-        <translation>La url del sitio</translation>
+        <translation type="obsolete">La url del sitio</translation>
     </message>
     <message>
         <source>Languages chosen</source>
-        <translation>Idiomas elegidos</translation>
+        <translation type="obsolete">Idiomas elegidos</translation>
     </message>
     <message>
         <source>Site security</source>
@@ -22958,7 +22967,7 @@ Con tu ayuda podemos solucionar los errores en eZ Publish e implementar nuevas f
     </message>
     <message>
         <source>By sending registration the following data will be sent to eZ Systems</source>
-        <translation>Enviando el registro los siguientes datos serán enviados a eZ Systems</translation>
+        <translation type="obsolete">Enviando el registro los siguientes datos serán enviados a eZ Systems</translation>
     </message>
     <message>
         <source>Your site is not running in a virtual host mode, this is insecure. It is recommended to run eZ Publish in virtual host mode. If you do not have the possibility to use virtual host mode, you should follow the instructions below about how to install an .htaccess file. The .htaccess file tells the web server to restrict the access to certain files.</source>
@@ -23080,7 +23089,7 @@ Esta funcionalidad queda también disponible más adelante desde la Interfaz de 
     </message>
     <message>
         <source>This data will help to improve future releases of eZ Publish.</source>
-        <translation>Esta información nos ayudará a mejorar nuevas versiones de eZ Publish.</translation>
+        <translation type="obsolete">Esta información nos ayudará a mejorar nuevas versiones de eZ Publish.</translation>
     </message>
     <message>
         <source>The problems are usually file-system related and can be easily fixed by copy / paste / running the suggested commands in a system shell.</source>
@@ -23113,67 +23122,87 @@ Esta funcionalidad queda también disponible más adelante desde la Interfaz de 
     </message>
     <message>
         <source>Registration field &quot;%fieldName&quot; is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>El campo de registro &quot;%fieldName&quot; está vacío</translation>
     </message>
     <message>
         <source>Your email</source>
-        <translation type="unfinished"></translation>
+        <translation>Su email</translation>
     </message>
     <message>
         <source>Registration field &quot;%fieldName&quot; has wrong format</source>
-        <translation type="unfinished"></translation>
+        <translation>El campo de registro &quot;%fieldName&quot; tiene un formato incorrecto</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished">País</translation>
-    </message>
-    <message>
-        <source>In order to provide you with the best service in the future, we need some statistics to know a bit about your usage of eZ Publish and its underlying platform.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In return this will also provide you with heads-up on security issues, notifications about updates, upgrades and other important news.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This happens periodically, and you will always be able to opt-out of this at anytime.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Could not send registration data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Required data is either missing or is invalid</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Registration information email:</source>
-        <translation type="unfinished"></translation>
+        <translation>País</translation>
     </message>
     <message>
         <source>Company</source>
-        <translation type="unfinished">Compañía</translation>
-    </message>
-    <message>
-        <source>Is this the first time you are installing eZ Publish?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Included some simple technical information?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Contents of registration email</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We care for your privacy. Read more &lt;a href=&apos;%link&apos; target=&apos;_blank&apos;&gt;here&lt;/a&gt;. This data will be treated securely and not shared with third parties without your permission.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Compañía</translation>
     </message>
     <message>
         <source>Welcome to %edition %version</source>
-        <translation type="unfinished"></translation>
+        <translation>Bienvenido a %edition %version</translation>
+    </message>
+    <message>
+        <source>Additional packages</source>
+        <translation>Paquetes adicionales</translation>
+    </message>
+    <message>
+        <source>Looking for other packages? Full archive of all packages can be found &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</source>
+        <translation>¿Busca otros paquetes?. El listado completo de paquetes puede encontrarse &lt;a href=&quot;%packages_url&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>Notice: The out of the box front-end site often relies on data within a package. This is why it is strongly suggested to map the package language to your primary language, otherwise you&apos;ll need to adjust the configuration and template files to get it working.</source>
+        <translation>Nota: El sitio por defecto provisto a menudo depende de datos contenidos en un paquete. Por eso le recomentamos fijar el idioma del paquete a su idioma primario . De no hacerlo así, necesitará ajustar configuraciones y plantillas para que el sitio funcione.</translation>
+    </message>
+    <message>
+        <source>Open source software is nothing without a vibrant community!</source>
+        <translation>¡El Software Open source no es nada sin una comunidad activa!</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;If you need to share knowledge, exchange tips with developers or simply find some improvement tricks, the eZ Community is the place to go.&lt;/p&gt;
+
+&lt;p&gt;
+How do you access it?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go on &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Click on Register (top of the page) and create your profile&lt;/li&gt;
+&lt;li&gt;Here you can check out the &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;blog posts&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;events&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;partners&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;We<byte value="x19"/>re looking forward to seeing what you share with the Community!&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Si quiere compartir conocimiento, intercambiar ideas con otros desarrolladores o simplemente encontrar algunos trucos para mejorar su aplicación, la eZ Community es el sitio al que ir.&lt;/p&gt;
+
+&lt;p&gt;
+¿Cómo puede acceder a él?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vaya a &lt;a href=&quot;http://share.ez.no/&quot; title=&quot;eZ Community&quot;&gt;share.ez.no&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Haga click en Register (parte superior de la página) y cree su perfil&lt;/li&gt;
+&lt;li&gt;Aquí puede ver los &lt;a href=&quot;http://share.ez.no/blogs&quot;&gt;artículos de los blogs&lt;/a&gt;,
+    &lt;a href=&quot;http://share.ez.no/events&quot;&gt;eventos&lt;/a&gt;, &lt;a href=&quot;http://share.ez.no/members-partners/find-a-partner&quot;&gt;compañías asociadas&lt;/a&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;¡Estamos ansiosos por ver lo que compartirá con la eZ Community!&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>Discover the eZ Publish Platform forums</source>
+        <translation>Descubra los foros de la plataforma eZ Publish</translation>
+    </message>
+    <message>
+        <source>eZ Publish 5 platform</source>
+        <translation>Plataforma eZ Publish 5</translation>
+    </message>
+    <message>
+        <source>Installation &amp; configuration</source>
+        <translation>Instalación y configuración</translation>
+    </message>
+    <message>
+        <source>Setup and design</source>
+        <translation>Configuración y diseño</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>General</translation>
     </message>
 </context>
 <context>
@@ -23550,11 +23579,11 @@ Esta funcionalidad queda también disponible más adelante desde la Interfaz de 
     </message>
     <message>
         <source>AcceptPathInfo disabled or running in CGI mode</source>
-        <translation>AcceptPathInfo esta desactivado o corriendo en modo CGI</translation>
+        <translation type="obsolete">AcceptPathInfo esta desactivado o corriendo en modo CGI</translation>
     </message>
     <message>
         <source>enter the following into your httpd.conf file.</source>
-        <translation>Poner lo siguiente en el archivo httpd.conf.</translation>
+        <translation type="obsolete">Poner lo siguiente en el archivo httpd.conf.</translation>
     </message>
     <message>
         <source>Remember to restart your web server afterwards.</source>
@@ -23656,7 +23685,7 @@ Esto supone un problema de seguridad y debe ser cambiado a otro directorio tempo
     </message>
     <message>
         <source>You need to enable AcceptPathInfo in your Apache config file, if you&apos;re using apache 2.x.</source>
-        <translation>Necesitas activar AcceptPathInfo en tu archivo de configuración de Apache, si usas apache 2.x.</translation>
+        <translation type="obsolete">Necesitas activar AcceptPathInfo en tu archivo de configuración de Apache, si usas apache 2.x.</translation>
     </message>
     <message>
         <source>allow_url_fopen ini setting is disabled</source>
@@ -23704,7 +23733,7 @@ Sin estos cambios la instalación no puede finalizar y fallarán algunas partes 
     </message>
     <message>
         <source>If you&apos;re running apache 1.3, eZ Publish will not run in CGI mode.</source>
-        <translation>Si estás usando apache 1.3, eZ Publish no funcionará en modo CGI.</translation>
+        <translation type="obsolete">Si estás usando apache 1.3, eZ Publish no funcionará en modo CGI.</translation>
     </message>
     <message>
         <source>Your PHP does not have support for all databases that eZ Publish support.</source>
@@ -23969,6 +23998,26 @@ Para hacer esto necesitas cambiar los comandos %chown en comandos de consola alt
     <message>
         <source>To fix this, edit your php.ini configuration and add E to the variables_order setting and restart your webserver.</source>
         <translation>Para solucionarlo, edita el archivo php.ini y añade E a todas las configuraciones de variables_order y reinicia tu servidor web.</translation>
+    </message>
+    <message>
+        <source>Missing intl extension</source>
+        <translation>Falta la extensión intl</translation>
+    </message>
+    <message>
+        <source>The intl extension, required for internationalization, is not installed or enabled.</source>
+        <translation>La extensión intl, necesaria para temas de internacionalización, no está instalada o habilitada.</translation>
+    </message>
+    <message>
+        <source>More information on installing it is available at</source>
+        <translation>La información sobre cómo instalar está disponible en</translation>
+    </message>
+    <message>
+        <source>Missing xsl extension</source>
+        <translation>Falta la extension xsl</translation>
+    </message>
+    <message>
+        <source>The xsl extension, required by rich text handling, is not installed or enabled.</source>
+        <translation>La extensión xsl, necesaria para trabajar con texto enriquecido, no está instalada o habilitada.</translation>
     </message>
 </context>
 <context>
@@ -25303,8 +25352,7 @@ Para hacer esto necesitas cambiar los comandos %chown en comandos de consola alt
     <message>
         <source>Sign Up</source>
         <comment>Button</comment>
-        <translation>
-Inscribir</translation>
+        <translation>Inscribir</translation>
     </message>
     <message>
         <source>Edit profile</source>
@@ -26233,12 +26281,9 @@ tu cuenta.</translation>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
-</context>
-<context>
-    <name>design/starndard/node</name>
     <message>
-        <source>Are you sure you want to remove these items?</source>
-        <translation>¿Estás seguro de que quieres eliminar estos ítems?</translation>
+        <source>Item can not be found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -26414,11 +26459,11 @@ tu cuenta.</translation>
     <name>index.php</name>
     <message>
         <source>Some errors occurred, see debug for more information.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se han producido algunos errores, vea el debug para más información.</translation>
     </message>
     <message>
         <source>Some general warnings occured, see debug for more information.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se han producido algunas advertencias generales, vea el debug para más información</translation>
     </message>
 </context>
 <context>
@@ -26505,7 +26550,11 @@ tu cuenta.</translation>
     </message>
     <message>
         <source>SSL Zones cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Caché de Zonas SSL</translation>
+    </message>
+    <message>
+        <source>Content Language cache</source>
+        <translation>Caché de Idiomas de Contenido</translation>
     </message>
 </context>
 <context>
@@ -27654,19 +27703,19 @@ si has elegido la opción &quot;%3&quot; desde &quot;%4&quot; </translation>
     <name>kernel/content/treemenu</name>
     <message>
         <source>Cannot display the treemenu because it is disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se puede mostrar el menú en árbol porque está deshabilitado.</translation>
     </message>
     <message>
         <source>Database is not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>La base de datos no está conectada</translation>
     </message>
     <message>
         <source>&quot;content&quot; module could not be found.</source>
-        <translation type="unfinished"></translation>
+        <translation>El módulo &quot;content&quot; no se ha podido encontrar.</translation>
     </message>
     <message>
         <source>Insufficient permissions to display the treemenu.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay permisos suficientes para mostrar el menú en árbol.</translation>
     </message>
 </context>
 <context>
@@ -28882,7 +28931,7 @@ si has elegido la opción &quot;%3&quot; desde &quot;%4&quot; </translation>
     </message>
     <message>
         <source>Unactivated users</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuarios no activados</translation>
     </message>
 </context>
 <context>

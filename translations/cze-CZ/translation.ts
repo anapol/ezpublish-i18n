@@ -23911,7 +23911,7 @@ your account.</source>
     </message>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation>Vaše žádost o registraci byla předána ke schválení administrátorem. Prosím vyčkejte na schválení, které bude oznámano v dalším e-mailu. Vaše e-mailová adresa byla potvrzena. Děkujeme.</translation>
+        <translation>Vaše žádost o registraci byla předána ke schválení administrátorem. Prosím vyčkejte na schválení, které bude oznámeno v dalším e-mailu. Vaše e-mailová adresa byla potvrzena. Děkujeme.</translation>
     </message>
     <message>
         <source>The new password must be at least %1 characters long. Please retype your new password.</source>

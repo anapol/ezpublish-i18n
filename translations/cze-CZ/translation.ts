@@ -17082,7 +17082,7 @@ If you want to send comments to the approver or view the status use the URL belo
     Click on placement names to change the browse listing.</source>
         <translation>Vyberte kam má být &quot;%objectname&quot; zkopírován(o).
 
-....Zaškrtněte cílovou složku a klikněte na tlačítko %buttonname.
+    Zaškrtněte cílovou složku a klikněte na tlačítko %buttonname.
     K procházení obsahu použijte klikání na názvy složek, případně šipku nahoru pro nadřazenou složku.</translation>
     </message>
     <message>
@@ -23907,23 +23907,23 @@ your account.</source>
     </message>
     <message>
         <source>Please note that your browser must use and support cookies to register a new user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro registraci nového uživatele musí Váš prohlížeč podporovat a mít povoleny cookies.</translation>
     </message>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaše žádost o registraci byla předána ke schválení administrátorem. Prosím vyčkejte na schválení, které bude oznámano v dalším e-mailu. Vaše e-mailová adresa byla potvrzena. Děkujeme.</translation>
     </message>
     <message>
         <source>The new password must be at least %1 characters long. Please retype your new password.</source>
-        <translation type="unfinished">Nové heslo musí být alespoň %1 znaků dlouhé. Prosím, zadejte znovu vaše heslo.</translation>
+        <translation>Nové heslo musí být alespoň %1 znaků dlouhé. Prosím, zadejte znovu vaše heslo.</translation>
     </message>
     <message>
         <source>Your browser does not seem to support cookies, to register a new user, cookies need to be supported and enabled!</source>
-        <translation type="unfinished"></translation>
+        <translation>Váš prohlížeč nepodporuje, nebo má zakázané cookies. Pro registraci nového uživatele je nutné povolit cookies.</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation type="unfinished">Zkus znovu</translation>
+        <translation>Zkuste znovu</translation>
     </message>
 </context>
 <context>
@@ -24035,6 +24035,10 @@ your account.</source>
     <message>
         <source>Click the following URL to login:</source>
         <translation>Klikněte na tuto adresu k přihlášení:</translation>
+    </message>
+    <message>
+        <source>%siteurl registration approved</source>
+        <translation>%siteurl: registrace schválena</translation>
     </message>
 </context>
 <context>
